@@ -1,0 +1,268 @@
+outfit "Capacitor Rack"
+	"capacitor slots" 2
+	"outfit space" -.5
+	category Power
+	cost 2000
+	description `This rack is a base for pluggable capacitor modules. Together, they form a modular energy storage system.`
+	mass .5
+	thumbnail outfit/capacitor_rack
+outfit "Chain Blaster Turret"
+	"outfit space" -34
+	"required crew" 2
+	"turret mounts" -1
+	"weapon capacity" -34
+	category Turrets
+	cost 360000
+	description `A marvel of modern day ingenuity. Not in regards to any Syndicate efforts, more so from what it says about engineers now a days; an inclination to find any 'brand new' configuration or design. Really it's the same hardware and can vary in effectiveness only so much before old technology becomes quite simply just old technology.`
+	mass 34
+	thumbnail outfit/chain_blaster_turret
+	weapon
+		"firing energy" 12
+		"firing heat" 30
+		"hardpoint offset" 9.
+		"hit effect" "blaster impact"
+		"hull damage" 6
+		"shield damage" 9
+		"turret turn" 3
+		inaccuracy 4
+		lifetime 60
+		reload 2
+		sound blaster
+		sprite projectile/blaster
+		velocity 7
+outfit "Deuterium Culture Tanks"
+	"energy consumption" .45
+	"fuel generation" .15
+	"outfit space" -16
+	category Systems
+	cost 110000
+	description `Due to their long travels, the Wanderers have found the need for an efficient way to produce hyperspace fuel. This specially created culture of bacteria uses excess heat coming from your ship to create hyperspace fuel at a modest yet consistent rate.`
+	mass 16
+outfit "Dual Electron Beam"
+	"gun ports" -1
+	"outfit space" -41
+	"weapon capacity" -41
+	category Guns
+	cost 440000
+	description `Through a method practiced in great depth throughout human space, comes the 'Dual Electron Beam' in full force. As an effect of the reinforcement of multiple units, the two Electron Beams work in conjunction with each other to form two coherent beams that boast a significantly more powerful result than that of two separate weapons.`
+	mass 41
+	thumbnail outfit/dual_electron_beam
+	weapon
+		"firing energy" 3.4
+		"firing heat" 4.1
+		"hit effect" "electron impact"
+		"hull damage" 6.3
+		"shield damage" 5.7
+		inaccuracy .2
+		lifetime 1
+		reload 1
+		sound "electron beam"
+		sprite projectile/electron
+			"frame rate" 60
+		velocity 450
+outfit "Flame Thrower"
+	"capture attack" 1.5
+	"capture defense" 1.2
+	category "Hand to Hand"
+	cost 35000
+	description `Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device.`
+	illegal 800000
+	thumbnail outfit/flame_thrower
+	unplunderable 1
+outfit "Ion Mortar"
+	"outfit space" -98
+	"required crew" 2
+	"turret mounts" -1
+	"weapon capacity" -98
+	category Turrets
+	cost 1320000
+	description `A fearsome weapon despite it's age. The 'Ion Mortar' is no more than two classic Ion Cannons mounted onto a rotating turret base. It is because of this that the peaceful Hai often consider this to be a perversion of traditional engineering.`
+	mass 98
+	thumbnail outfit/ion_mortar
+	weapon
+		"firing energy" 270
+		"firing force" 10
+		"firing heat" 210
+		"hardpoint sprite" hardpoint_sprite/ion_mortar
+		"hit effect" "ion impact" 2
+		"hit force" 120
+		"hull damage" 48
+		"ion damage" 6
+		"shield damage" 154
+		"turret turn" 1.5
+		inaccuracy 1
+		lifetime 50
+		reload 30
+		sound ion
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		velocity 16
+outfit "Katabatic Scanner"
+	"outfit scan power" 21
+	"outfit scan speed" 2
+	"outfit space" -4
+	"tactical scan power" 38
+	category Systems
+	cost 538000
+	description `The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe.`
+	mass 4
+outfit "Knockout Gas"
+	"capture attack" 2.2
+	"capture defense" 1.2
+	category "Hand to Hand"
+	cost 110000
+	description `Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal.`
+	licenses
+		Navy
+	plural `Gas Canisters`
+	thumbnail outfit/knockout_gas
+	unplunderable 1
+outfit "Mass Driver"
+	"gun ports" -1
+	"outfit space" -54
+	"weapon capacity" -54
+	category Guns
+	cost 558000
+	description `While the applications of electromagnetic propulsion have found uses across many scientific fields for a very long time, the weaponisation of said practice has had trouble finding much success. It wasn't long ago that the science of such a weapon wasn't promising enough to even be green lit for additional funding.`
+	description `With its advantages come its fair share of drawbacks, such as the sheer size required to make it an effective asset in combat situations.`
+	mass 54
+	weapon
+		"firing energy" 43
+		"firing heat" 187
+		"hull damage" 398
+		"shield damage" 272
+		inaccuracy .2
+		lifetime 115
+		piercing .2
+		reload 75
+		velocity 19
+outfit "Plasma Repeater"
+	"gun ports" -1
+	"outfit space" -32
+	"weapon capacity" -32
+	category Guns
+	cost 274000
+	description `Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding.`
+	description `Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall.`
+	mass 32
+	thumbnail outfit/plasma_repeater
+	weapon
+		"firing energy" 13
+		"firing heat" 110
+		"heat damage" 144
+		"hit effect" "plasma explosion"
+		"hit force" 19
+		"hull damage" 13
+		"shield damage" 33
+		inaccuracy 5
+		lifetime 38
+		reload 7
+		sprite projectile/plasma
+			"frame rate" 3
+		sound plasma
+		velocity 12
+outfit "Quad Plasma Turret"
+	"outfit space" -87
+	"required crew" 2
+	"turret mounts" -1
+	"weapon capacity" -87
+	category Turrets
+	cost 520000
+	description `Clearly a terrifying child of Kraz Cybernetics, however running on the hotter side. The Quad Plasma Turret owes itself to the largest cooling systems on the market, the heat that just one of these turrets output is enough to put the user at a serious disadvantage if not prepared.`
+	description `Barmy Edwards himself strongly discourages relying on any more than a pair of these turrets per ship. While many pilots plainly refuse to operate one of these turrets aboard their ships because of the immense heat it generates, it is curiously popular with pilots traveling from deep within Syndicate space.`
+	mass 87
+	thumbnail outfit/quad_plasma_turret
+	weapon
+		"firing energy" 32
+		"firing heat" 195
+		"hardpoint offset" 15
+		"hardpoint sprite" hardpoint_sprite/quad_plasma_turret
+		"heat damage" 370
+		"hit effect" "plasma explosion"
+		"hit force" 40
+		"hull damage" 28
+		"shield damage" 66
+		"turret turn" 2
+		inaccuracy 2
+		lifetime 40
+		reload 5
+		sound plasma
+		sprite projectile/plasma
+			"frame rate" 3
+		velocity 12
+outfit "Regional Map"
+	category Special
+	cost 12000
+	description `This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly.`
+	map 48
+	thumbnail outfit/map
+outfit "Shipwright Gear"
+	"tool storage" -1
+	"hull energy" .06
+	"hull repair rate" .04
+	"required crew" 1
+	category Special
+	cost 8400
+	description `As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship.`
+	thumbnail outfit/shipwright_gear
+outfit "Small Ramscoop Module"
+	"energy consumption" 0.3
+	"outfit space" -6
+	category Systems
+	cost 96000
+	description `This ramscoop is extremely compact and is used to function as a back up in case a Coalition ship gets stranded in an empty system. However, it draws a small amount of energy.`
+	licenses
+		Coalition
+	mass 6
+	ramscoop 3.5
+outfit "Smugglers Fittings"
+	"cargo space" 5
+	"engine capacity" -8
+	"outfit space" -8
+	"scan interference" .7
+	category Systems
+	cost 9000
+	description `This infamous engine mod provides massive scan interference because of where it is situated and of course, the additional interference lining. Because of its nature it is illegal to outfit your ship in this way, that is if scanners are able to find it.`
+	illegal 650000
+	thumbnail outfit/smugglers_fittings
+outfit "Storage Lockers"
+	"outfit space" -13
+	"tool storage" 5
+	category Systems
+	cost 13600
+	description `This is a small, self-contained room, that provides safe and convenient way to store, retrieve, and professionally take care of various specialised tools.`
+	mass 13
+	thumbnail outfit/storage_lockers
+outfit "Tool Rack"
+	"outfit space" -3
+	"tool storage" 1
+	category Systems
+	cost 13600
+	description `Those racks are designed to safely store, retrieve, and recharge various specialised tools.`
+	mass 3
+	thumbnail outfit/tool_rack
+outfit "Type 0 Radiant Engine"
+	"engine capacity" -14
+	"outfit space" -14
+	"thrusting energy" 0.3
+	"thrusting heat" 0.5
+	"turning energy" .2
+	"turning heat" 0.4
+	category Engines
+	cooling 1.9
+	cost 170000
+	description `The construction of the new Scud drones prompted a need for an even smaller engine complement than was available at the time. This lead to the creation of the Type 0 Radiant Engine, the Wanderers first ever hybrid engines systems, capable of achieving speeds comparable to a set of Type 1 engines whilst remaining significantly smaller.`
+	description `This efficiency serves as a reminder to the Wanderers that their engineering has not stagnated, and that they are still capable of progressing their technology.`
+	licenses
+		"Wanderer Outfits"
+	mass 14
+	thumbnail outfit/type_0_radiant_engine
+	thrust 4.6
+	turn 141.3
+outfit Capacitors
+	"capacitor slots" -1
+	"energy capacity" 18.75
+	category Power
+	cost 2400
+	description `This is a small capacitor, designed to be plugged in the Capacitor Rack.`
+	thumbnail outfit/capacitors

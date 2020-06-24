@@ -1,0 +1,740 @@
+system Celiatis
+	asteroids "large metal" 2 1
+	asteroids "large rock" 20 1
+	asteroids "medium metal" 15 2
+	asteroids "medium rock" 14 2
+	asteroids "small metal" 3 2
+	asteroids "small rock" 7 2
+	government Uninhabited
+	link Mafari
+	minables copper 7 3
+	minables iron 30 2
+	object
+		distance 1567
+		period 1203
+		sprite planet/gas11
+		object
+			distance 234
+			period 11
+			sprite planet/tethys
+	object
+		distance 197
+		period 53
+		sprite planet/ice6
+	object
+		distance 2121
+		period 1893
+		sprite planet/dust0
+	object
+		distance 454
+		period 187
+		sprite planet/forest4
+	object
+		distance 832
+		period 465
+		sprite planet/desert2
+	object
+		period 10
+		sprite star/k5
+	pos -136 759
+system Diespiter
+	asteroids "large metal" 76 3
+	asteroids "large rock" 3 1
+	asteroids "medium metal" 26 4
+	asteroids "medium rock" 14 1
+	asteroids "small metal" 74 2
+	asteroids "small rock" 65 3
+	government ember_waste
+	haze _menu/haze-red
+	link Postverta
+	link Prosa
+	link Statina
+	minables iron 22 3
+	minables silicon 46 3
+	minables tungsten 17 3
+	object
+		distance 1600
+		period 398
+		sprite planet/gas11
+		object
+			distance 270
+			period 14
+			sprite planet/rock3
+	object
+		distance 745
+		period 394
+		sprite planet/ice6
+	object
+		distance 922
+		period 543
+		sprite planet/lava0
+	object
+		period 10
+		sprite star/k5-old
+	pos 332 210
+system Egeria
+	asteroids "large metal" 5 4
+	asteroids "large rock" 9 7
+	asteroids "medium metal" 86 3
+	asteroids "medium rock" 20 5
+	asteroids "small rock" 1 8
+	government ember_waste
+	haze _menu/haze-red
+	link Prosa
+	link Vaticanus
+	minables iron 20 4
+	minables lead 28 5
+	object
+		distance 1326
+		period 2174
+		sprite planet/gas9
+		object
+			distance 270
+			period 16
+			sprite planet/rhea
+	object
+		distance 40
+		offset 180
+		period 19
+		sprite star/k5-old
+	object
+		distance 248
+		period 61
+		sprite planet/ice4
+	object
+		distance 74
+		period 19
+		sprite star/g0
+	object barren_wormhole
+		distance 2313
+		period 389
+		sprite planet/wormhole-red
+	pos 288 146
+system Felii
+	asteroids "large metal" 1 3
+	government Uninhabited
+	link Gerusti
+	link Mafari
+	minables lead 4 2
+	minables titanium 4 4
+	minables uranium 5 4
+	object
+		distance 1449
+		period 1234
+		sprite planet/gas12
+	object
+		distance 205
+		period 65
+		sprite planet/rock3
+	object
+		distance 435
+		period 202
+		sprite planet/desert6
+	object
+		distance 4841
+		period 7533
+		sprite planet/uranus
+		object
+			distance 246
+			period 16
+			sprite planet/station6
+	object
+		distance 864
+		period 568
+		sprite planet/venus
+	object
+		period 10
+		sprite star/m0
+	pos -209 817
+system Gerusti
+	asteroids "large metal" 39 1
+	asteroids "large rock" 21 1
+	asteroids "medium metal" 47 1
+	asteroids "medium rock" 53 2
+	asteroids "small metal" 1 2
+	asteroids "small rock" 5 2
+	government Uninhabited
+	link Felii
+	link Mafari
+	object
+		distance 1812
+		period 1725
+		sprite planet/gas8
+	object
+		distance 217
+		period 71
+		sprite planet/desert8
+	object
+		distance 2735
+		period 3199
+		sprite planet/gas15
+		object
+			distance 207
+			period 15
+			sprite planet/io
+	object
+		distance 483
+		period 237
+		sprite planet/miranda
+	object
+		distance 922
+		period 626
+		sprite planet/gas1
+		object
+			distance 224
+			period 13
+			sprite planet/dust1
+	object
+		period 10
+		sprite star/m0
+	pos -241 754
+system Mafari
+	asteroids "large metal" 8 2
+	asteroids "large rock" 179 5
+	asteroids "medium metal" 18 3
+	asteroids "medium rock" 3 2
+	asteroids "small metal" 1 3
+	asteroids "small rock" 26 3
+	government Uninhabited
+	link Celiatis
+	link Felii
+	link Gerusti
+	link Prima
+	link Raliesa
+	minables gold 3 5
+	minables iron 21 6
+	minables silicon 32 4
+	object
+		distance 1001
+		period 306
+		sprite planet/mercury
+	object
+		distance 1337
+		period 472
+		sprite planet/desert8
+	object
+		distance 2066
+		period 907
+		sprite planet/gas6
+	object
+		distance 279
+		period 45
+		sprite planet/desert5
+		object
+			distance 149
+			period 19
+			sprite planet/dust1
+	object
+		distance 741
+		period 195
+		sprite planet/dust4
+	object
+		period 10
+		sprite star/f5
+	pos -172 723
+system Marati
+	asteroids "large metal" 15 3
+	asteroids "large rock" 3 2
+	asteroids "medium metal" 87 3
+	asteroids "medium rock" 42 2
+	asteroids "small metal" 69 1
+	asteroids "small rock" 5 2
+	government Uninhabited
+	link Ottava
+	link Remia
+	link Resetus
+	minables lead 7 3
+	minables titanium 27 3
+	minables uranium 54 2
+	object
+		distance 1209
+		period 547
+		sprite planet/neptune
+		object
+			distance 227
+			period 17
+			sprite planet/ice0
+	object
+		distance 2050
+		period 1207
+		sprite planet/gas2
+		object
+			distance 182
+			period 14
+			sprite planet/europa
+	object
+		distance 308
+		period 70
+		sprite planet/ice1
+	object
+		distance 619
+		period 200
+		sprite planet/ocean2
+	object
+		distance 841
+		period 317
+		sprite planet/dust4
+	object
+		period 13
+		sprite star/g5
+	pos -106 572
+system Ottava
+	asteroids "large metal" 15 1
+	asteroids "large rock" 4 1
+	asteroids "medium metal" 12 1
+	asteroids "medium rock" 16 1
+	asteroids "small metal" 2 2
+	asteroids "small rock" 4 1
+	government Uninhabited
+	link Marati
+	object
+		distance 1031
+		period 397
+		sprite planet/forest1
+		object
+			distance 148
+			period 20
+			sprite planet/rock3
+	object
+		distance 271
+		period 53
+		sprite planet/desert3
+	object
+		distance 3083
+		period 2053
+		sprite planet/gas6
+	object
+		distance 41
+		period 10
+		sprite star/g5
+	object
+		distance 52
+		offset 180
+		period 10
+		sprite star/k0
+	object
+		distance 540
+		period 150
+		sprite planet/cloud0
+	object
+		distance 743
+		period 243
+		sprite planet/dust3
+	pos -76 525
+system Paritixi
+	asteroids "large metal" 14 1
+	asteroids "large rock" 27 2
+	asteroids "medium metal" 13 3
+	asteroids "medium rock" 26 1
+	asteroids "small metal" 11 1
+	asteroids "small rock" 78 1
+	government Uninhabited
+	link Prima
+	object
+		distance 1191
+		period 919
+		sprite planet/rock9
+	object
+		distance 1356
+		period 1116
+		sprite planet/luna
+	object
+		distance 263
+		period 95
+		sprite planet/forest0
+	object
+		distance 526
+		period 270
+		sprite planet/rock2
+	object
+		period 10
+		sprite star/m0
+	pos -137 698
+system Perima
+	asteroids "large metal" 1 4
+	asteroids "large rock" 20 3
+	asteroids "medium metal" 165 10
+	asteroids "medium rock" 2 8
+	asteroids "small metal" 1 9
+	asteroids "small rock" 59 9
+	government Uninhabited
+	link Prima
+	link Raliesa
+	minables iron 44 16
+	minables silver 1 19
+	minables titanium 4 12
+	object
+		distance 1082
+		period 569
+		sprite planet/forest2
+	object
+		distance 126
+		period 22
+		sprite planet/lava0
+	object
+		distance 1502
+		period 931
+		sprite planet/gas7
+	object
+		distance 3722
+		period 3633
+		sprite planet/miranda
+	object
+		distance 465
+		period 160
+		sprite planet/ocean0
+	object
+		period 10
+		sprite star/g5
+	object graveyard_wormhole3
+		distance 1529
+		period 782
+		sprite planet/wormhole-red
+	pos -254 634
+system Postverta
+	asteroids "large metal" 9 3
+	asteroids "large rock" 4 3
+	asteroids "medium metal" 52 1
+	asteroids "medium rock" 4 2
+	government ember_waste
+	haze _menu/haze-red
+	link Diespiter
+	link Prosa
+	link Statina
+	object
+		distance 1208
+		period 654
+		sprite planet/rock10
+	object
+		distance 439
+		period 143
+		sprite planet/desert7
+	object
+		distance 814
+		period 362
+		sprite planet/fog0
+		object
+			distance 202
+			period 21
+			sprite planet/dust4
+	object
+		period 19
+		sprite star/m4
+	pos 297 269
+system Prima
+	asteroids "large metal" 5 6
+	asteroids "large rock" 122 4
+	asteroids "medium metal" 19 3
+	asteroids "medium rock" 19 3
+	asteroids "small metal" 1 4
+	asteroids "small rock" 5 4
+	government Uninhabited
+	link Mafari
+	link Paritixi
+	link Perima
+	minables iron 1 7
+	object
+		distance 1600
+		period 529
+		sprite planet/jupiter
+		object
+			distance 239
+			period 11
+			sprite planet/ice0
+	object
+		distance 2516
+		period 1043
+		sprite planet/desert4
+	object
+		distance 30
+		period 10
+		sprite star/f5
+	object
+		distance 435
+		period 75
+		sprite planet/ice1
+		object
+			distance 185
+			period 21
+			sprite planet/rock14
+	object
+		distance 85
+		offset 180
+		period 10
+		sprite star/g5
+	object
+		distance 902
+		period 224
+		sprite planet/dust3
+	pos -176 666
+system Prosa
+	asteroids "large metal" 2 2
+	asteroids "large rock" 16 1
+	asteroids "medium metal" 11 2
+	asteroids "medium rock" 16 1
+	asteroids "small rock" 4 1
+	government ember_waste
+	haze _menu/haze-red
+	link Diespiter
+	link Egeria
+	link Postverta
+	link Vaticanus
+	minables copper 5 2
+	object
+		distance 311
+		period 34
+		sprite planet/cloud1
+	object
+		distance 749
+		period 127
+		sprite planet/desert9
+	object
+		distance 941
+		period 179
+		sprite planet/rock6
+	object
+		offset 180
+		period 7
+		sprite star/giant
+	object
+		distance 1311
+		period 695
+		sprite planet/gas17
+		object
+			distance 227
+			period 14
+			sprite planet/callisto
+		object
+			distance 351
+			period 28
+			sprite planet/dust5
+	object barren_wormhole2
+		distance 2313
+		period 389
+		sprite planet/wormhole-red
+	pos 303 194
+system Raliesa
+	asteroids "large metal" 14 3
+	asteroids "large rock" 2 3
+	asteroids "medium metal" 47 2
+	asteroids "medium rock" 45 4
+	asteroids "small metal" 17 3
+	asteroids "small rock" 4 1
+	government Uninhabited
+	link Mafari
+	link Perima
+	minables gold 4 5
+	minables lead 7 7
+	minables titanium 3 4
+	object
+		distance 1398
+		period 1169
+		sprite planet/gas1
+		object
+			distance 215
+			period 12
+			sprite planet/dust0
+	object
+		distance 153
+		period 42
+		sprite planet/callisto
+	object
+		distance 2293
+		period 2455
+		sprite planet/gas5
+		object
+			distance 236
+			period 12
+			sprite planet/ice0
+		object
+			distance 378
+			period 24
+			sprite planet/oberon
+	object
+		distance 431
+		period 200
+		sprite planet/rock4
+	object
+		distance 819
+		period 524
+		sprite planet/rock14
+	object
+		period 10
+		sprite star/m0
+	pos -229 681
+system Remia
+	asteroids "large metal" 87 3
+	asteroids "large rock" 8 2
+	asteroids "medium metal" 50 2
+	asteroids "medium rock" 14 3
+	asteroids "small metal" 32 5
+	government Uninhabited
+	link Marati
+	link Resetus
+	minables lead 11 5
+	minables titanium 14 5
+	object
+		distance 129
+		period 32
+		sprite planet/oberon
+	object
+		distance 1358
+		period 1119
+		sprite planet/gas12
+		object
+			distance 288
+			period 12
+			sprite planet/dust4
+		object
+			distance 388
+			period 20
+			sprite planet/rock7
+		object
+			distance 531
+			period 32
+			sprite planet/dust7
+		object
+			distance 689
+			period 47
+			sprite planet/tethys
+	object
+		distance 405
+		period 182
+		sprite planet/dust1
+	object
+		period 10
+		sprite star/m0
+	pos -134 619
+system Resetus
+	asteroids "large metal" 4 7
+	asteroids "large rock" 1 7
+	asteroids "medium metal" 12 8
+	government Uninhabited
+	link Marati
+	link Remia
+	minables copper 1 10
+	object
+		distance 1501
+		period 931
+		sprite planet/rock14
+	object
+		distance 1881
+		period 1305
+		sprite planet/gas9
+		object
+			distance 233
+			period 13
+			sprite planet/callisto
+	object
+		distance 308
+		period 86
+		sprite planet/desert2
+		object
+			distance 135
+			period 17
+			sprite planet/miranda
+	object
+		distance 922
+		period 448
+		sprite planet/gas8
+		object
+			distance 214
+			period 16
+			sprite planet/europa
+		object
+			distance 319
+			period 30
+			sprite planet/dust3
+	object
+		period 10
+		sprite star/g5
+	object graveyard_wormhole3
+		distance 1529
+		period 782
+		sprite planet/wormhole-red
+	pos -176 568
+system Statina
+	asteroids "large metal" 3 5
+	asteroids "large rock" 1 4
+	asteroids "medium metal" 72 3
+	asteroids "small metal" 39 3
+	government ember_waste
+	haze _menu/haze-red
+	link Diespiter
+	link Postverta
+	minables iron 5 6
+	minables silicon 11 5
+	minables titanium 10 4
+	object
+		distance 111
+		period 30
+		sprite planet/desert4
+	object
+		distance 308
+		period 142
+		sprite planet/dust3
+	object
+		distance 636
+		period 420
+		sprite planet/gas8
+	object
+		period 10
+		sprite star/m4
+	object
+		distance 1364
+		period 84
+		sprite planet/ice5
+		object
+			distance 158
+			period 17
+			sprite planet/dust4
+	object link_wormhole
+		distance 2754
+		period 389
+		sprite planet/wormhole-red
+	pos 385 198
+system Vaticanus
+	asteroids "large metal" 11 7
+	asteroids "large rock" 5 8
+	asteroids "medium metal" 47 11
+	asteroids "medium rock" 11 9
+	asteroids "small metal" 14 8
+	asteroids "small rock" 3 6
+	government ember_waste
+	haze _menu/haze-red
+	link Egeria
+	link Prosa
+	minables lead 16 13
+	minables tungsten 10 13
+	object
+		distance 1670
+		period 1181
+		sprite planet/gas16
+		object
+			distance 204
+			period 14
+			sprite planet/lava1
+	object
+		distance 2105
+		period 3438
+		sprite planet/uranus
+		object
+			distance 235
+			period 14
+			sprite planet/luna
+	object
+		distance 261
+		period 73
+		sprite planet/ice6
+	object
+		distance 768
+		period 368
+		sprite planet/tethys
+	object
+		period 19
+		sprite star/m0
+	object link_wormhole
+		distance 2754
+		period 389
+		sprite planet/wormhole-red
+	pos 324 112
