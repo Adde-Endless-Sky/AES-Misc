@@ -114,7 +114,7 @@ mission remnant_colonisation_supplies
 mission remnant_surveillance
 	description `Deploy specialized surveillance equipment within <waypoints>, then return to <planet> to receive your payment of <payment>`
 	waypoint
-		government ember_waste
+		attribute "ember waste"
 	job
 	name `Remnant surveillance`
 	on complete

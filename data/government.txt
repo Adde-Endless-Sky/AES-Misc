@@ -1,3 +1,0 @@
-government ember_waste
-	"display name" Uninhabited
-	color .4 .4 .4

@@ -1,23 +1,13 @@
-system Aescolanus
-	government ember_waste
 system Caeculus
 	add object barren_wormhole2
 		distance 2313
 		period 389
 		sprite planet/wormhole-red
-	government ember_waste
-system Coluber
-	government ember_waste
-system Edusa
-	government ember_waste
-system Levana
-	government ember_waste
 system Lucina
 	add object barren_wormhole
 		distance 2313
 		period 389
 		sprite planet/wormhole-red
-	government ember_waste
 system Omnis
 	add object "Paltry Freighter"
 		distance 4000
@@ -51,11 +41,3 @@ system Omnis
 		distance 4000
 		offset -32
 		sprite ship/hydra
-system Parca
-	government ember_waste
-system Peragenor
-	government ember_waste
-system Segesta
-	government ember_waste
-system Stercutus
-	government ember_waste
