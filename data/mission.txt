@@ -95,7 +95,7 @@ mission test_plasma_repeater_2
 		event plasma_repeater_available 30
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
-			scene thumbnail/plasma_repeater
+			scene outfit/plasma_repeater
 			`You head to the hangar to meet up with Barmy Edward, and find him tinkering with a large gun much like an old Plasma Cannon, but somewhat different. Presumably, this is the weapon that you were just attacked with in orbit. "It runs alot hotter, you see," he says. "But the results are impressive."`
 			choice
 				`	"What was that?"`
