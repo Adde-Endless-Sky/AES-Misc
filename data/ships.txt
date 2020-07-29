@@ -1,3 +1,7 @@
+-------------------
+# LIGHT FREIGHTER #
+-------------------
+
 ship 'Paltry Freighter'
 	sprite "ship/paltry_freighter"
 	thumbnail "thumbnail/paltry_freighter"
@@ -45,6 +49,11 @@ ship 'Paltry Freighter'
 	"final explode" "final explosion medium"
 	description `Often described as unoriginal or a deathtrap, comes the Paltry Freighter. It's often mocked for its usefulness, as many ships already exist to step in at that price range for merchant captains.`
 	description `The creativity behind this vessel is very limited, it was released long after the Bulk Freighter was and is very obviously the same frame but with many of its cargo pods removed to cut down on size and price.`
+
+---------------
+# INTERCEPTOR #
+---------------
+
 ship 'Adel'
 	sprite "ship/adel"
 	thumbnail "thumbnail/adel"
@@ -92,6 +101,112 @@ ship 'Adel'
 	explode "medium explosion" 15
 	description `While the Aphid is revered by the Hai as the perfect ship for beginner pilots, certain pirates roaming the outskirts of human space tend to disagree with its role as a freighter. What became very popular with pirates however is the potential that the Aphid offers, bolstered with three gun ports and additional alien plating strapped onto the hull brings this well within the realm of an interceptor.`
 	description `Apparently the pirates responsible manage to salvage quite a few Aphid hulls that allow them to pull off such a heinous design.`
+
+ship 'Hornet'
+	sprite "ship/hornet"
+	thumbnail "thumbnail/hornet"
+	attributes
+		category "Interceptor"
+		cost 690000
+		shields 2600
+		hull 900
+		"required crew" 2
+		bunks 5
+		"cargo space" 20
+		mass 90
+		drag 1.4
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"outfit space" 190
+		"weapon capacity" 34
+		"engine capacity" 80
+		weapon
+			"blast radius" 30
+			"shield damage" 260
+			"hull damage" 190
+			"hit force" 410
+	outfits
+		"Cargo Expansion"
+		"D23-QP Shield Generator"
+		"Hyperdrive"
+		"LP072a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 100
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+	engine -15 14 .5
+	engine 0 41 .5
+	engine 15 14 .5
+	gun -4 -41 "Sidewinder Missile Launcher"
+	gun 4 -41 "Sidewinder Missile Launcher"
+	explode "tiny explosion" 22
+	explode "small explosion" 14
+	description `The Hornet is an interceptor that weighs in above its predecessor the Wasp, designed by Syndicated Shipyards to serve as a more reliable successor. It improves where the Wasp fails by a very thin margin, many consider the Hornet to be a needless product as it offers little improvement over almost a doubly high price.`
+
+------------------
+# MEDIUM WARSHIP #
+------------------
+
+ship 'Bennu'
+	sprite "ship/bennu"
+	thumbnail "thumbnail/bennu"
+	attributes
+		category "Medium Warship"
+		cost 3920000
+		shields 8700
+		hull 3300
+		"required crew" 8
+		bunks 25
+		mass 330
+		drag 4.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 35
+		"weapon capacity" 155
+		"engine capacity" 105
+		"outfit space" 430
+		weapon
+			"blast radius" 150
+			"shield damage" 1100
+			"hull damage" 600
+			"hit force" 1550
+	outfits
+		"Bullfrog Anti-Missile" 2
+		"Fission Reactor"
+		"Generator (Furnace Class)"
+		"Hai Corundum Regenerator"
+		"Hyperdrive"
+		"Inhibitor Cannon" 2
+		"Intrusion Countermeasures"
+		"Laser Rifle" 5
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Nerve Gas" 2
+		"Plasma Repeater" 2
+		"Small Heat Shunt" 2
+		"Thruster (Asteroid Class)"
+		`"Biroo" Atomic Steering`
+		`"Biroo" Atomic Thruster`
+	engine -36 78
+	engine 36 78
+	gun -43 -12 "Plasma Repeater"
+	gun -30.5 -28.5 "Inhibitor Cannon"
+	gun 30.5 -28.5 "Inhibitor Cannon"
+	gun 43 -12 "Plasma Repeater"
+	turret -41.5 44 "Bullfrog Anti-Missile"
+	turret 41.5 44 "Bullfrog Anti-Missile"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
+
+-----------------
+# HEAVY WARSHIP #
+-----------------
+
 ship 'Aesalon'
 	sprite "ship/aesalon"
 	thumbnail "thumbnail/aesalon"
@@ -147,62 +262,10 @@ ship 'Aesalon'
 	explode "large explosion" 40
 	"final explode" "final explosion medium"
 	description `The Aesalon is by no means an original design, built up from the Tarazed Falcon, however it is quite obvious that there was very many creative liberties taken with the modifications. Outclassing the original design in almost every way, it's obvious why such an extent of time and effort was exhausted in transforming the iconic design of the Falcon.`
-ship 'Bennu'
-	sprite "ship/bennu"
-	thumbnail "thumbnail/bennu"
-	attributes
-		category "Medium Warship"
-		cost 3920000
-		shields 8700
-		hull 3300
-		"required crew" 8
-		bunks 25
-		mass 330
-		drag 4.8
-		"heat dissipation" .7
-		"fuel capacity" 400
-		"cargo space" 35
-		"weapon capacity" 155
-		"engine capacity" 105
-		"outfit space" 430
-		weapon
-			"blast radius" 150
-			"shield damage" 1100
-			"hull damage" 600
-			"hit force" 1550
-	outfits
-		"Bullfrog Anti-Missile" 2
-		"Fission Reactor"
-		"Generator (Furnace Class)"
-		"Hai Corundum Regenerator"
-		"Hyperdrive"
-		"Inhibitor Cannon" 2
-		"Intrusion Countermeasures"
-		"Laser Rifle" 5
-		"Liquid Nitrogen Cooler"
-		"LP144a Battery Pack"
-		"Nerve Gas" 2
-		"Plasma Repeater" 2
-		"Small Heat Shunt" 2
-		"Thruster (Asteroid Class)"
-		`"Biroo" Atomic Steering`
-		`"Biroo" Atomic Thruster`
-	engine -36 78
-	engine 36 78
-	gun -43 -12 "Plasma Repeater"
-	gun -30.5 -28.5 "Inhibitor Cannon"
-	gun 30.5 -28.5 "Inhibitor Cannon"
-	gun 43 -12 "Plasma Repeater"
-	turret -41.5 44 "Bullfrog Anti-Missile"
-	turret 41.5 44 "Bullfrog Anti-Missile"
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion medium"
-	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
+
 ship 'Bladewood'
 	attributes
+		category "Heavy Warship"
 		shields 16900
 		hull 24700
 		mass 940
@@ -237,6 +300,7 @@ ship 'Bladewood'
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
+
 ship 'Bulwark'
 	sprite "ship/bulwark"
 	thumbnail "thumbnail/bulwark"
@@ -292,6 +356,7 @@ ship 'Bulwark'
 	"final explode" "final explosion large"
 	description `The Bulwark is the ship designed to transcend the classic Protector model that was made famous by Stars and Starships Magazine so long ago. The Bulwark surpasses the Protector not in elegance, but sheer firepower and ability to take a heavy beating. Many syndicate employees have voiced their concern and regret for continuing the legacy of the notorious Protector, however many of these employees have since been unable to comment further on the matter.`
 	description `Rumors have spread of a stolen prototype raiding the star systems bordering the core, merchants have reported sightings of said prototype seemingly appearing from empty space before turning its weapons on nearby vessels.`
+
 ship 'Hobby'
 	sprite "ship/hobby"
 	thumbnail "thumbnail/hobby"
@@ -354,47 +419,7 @@ ship 'Hobby'
 	explode "huge explosion" 5
 	"final explode" "final explosion large" 1
 	description `Not actually a standalone ship design, the 'Hobby' is the name given to a certain modification of the Albatross. Literally an Albatross with its wings removed off the base model, this popular modification also is usually paired with a modification to the core internals, focused on engine tuning. Despite the focus on engines, the 'Hobby' modification can keep the majority of its arsenal even after the heavy modifications to the stock hull.`
-ship 'Hornet'
-	sprite "ship/hornet"
-	thumbnail "thumbnail/hornet"
-	attributes
-		category "Interceptor"
-		cost 690000
-		shields 2600
-		hull 900
-		"required crew" 2
-		bunks 5
-		"cargo space" 20
-		mass 90
-		drag 1.4
-		"heat dissipation" .7
-		"fuel capacity" 500
-		"outfit space" 190
-		"weapon capacity" 34
-		"engine capacity" 80
-		weapon
-			"blast radius" 30
-			"shield damage" 260
-			"hull damage" 190
-			"hit force" 410
-	outfits
-		"Cargo Expansion"
-		"D23-QP Shield Generator"
-		"Hyperdrive"
-		"LP072a Battery Pack"
-		"nGVF-BB Fuel Cell"
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 100
-		"X2200 Ion Steering"
-		"X2700 Ion Thruster"
-	engine -15 14 .5
-	engine 0 41 .5
-	engine 15 14 .5
-	gun -4 -41 "Sidewinder Missile Launcher"
-	gun 4 -41 "Sidewinder Missile Launcher"
-	explode "tiny explosion" 22
-	explode "small explosion" 14
-	description `The Hornet is an interceptor that weighs in above its predecessor the Wasp, designed by Syndicated Shipyards to serve as a more reliable successor. It improves where the Wasp fails by a very thin margin, many consider the Hornet to be a needless product as it offers little improvement over almost a doubly high price.`
+
 ship 'Hydra'
 	sprite "ship/hydra"
 	thumbnail "thumbnail/hydra"
@@ -454,28 +479,11 @@ ship 'Hydra'
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion large"
-ship "Leviathan" 'leviathan plasma repeater'
-	outfits
-		"A375 Atomic Steering"
-		"Afterburner"
-		"Breeder Reactor"
-		"D94-YV Shield Generator" 2
-		"Heavy Anti-Missile Turret" 2
-		"Impala Plasma Thruster"
-		"Laser Rifle" 25
-		"Liquid Nitrogen Cooler"
-		"LP036a Battery Pack"
-		"Plasma Repeater" 4
-		"Ramscoop"
-		"Scram Drive"
-	gun "Plasma Repeater"
-	gun "Plasma Repeater"
-	gun "Plasma Repeater"
-	gun "Plasma Repeater"
-	turret
-	turret
-	turret "Heavy Anti-Missile Turret"
-	turret "Heavy Anti-Missile Turret"
+
+-----------
+# FIGHTER #
+-----------
+
 ship 'Sarkic'
 	noun `entity`
 	sprite "ship/sarkic"
@@ -524,6 +532,11 @@ ship 'Sarkic'
 	explode "tiny explosion" 16
 	explode "small explosion" 10
 	description `The enigmatic Drak possess bio-mechanical vessels capable of maintaining order throughout the galaxy. No one knows just how many Drak vessels are out amongst the stars, nor do they understand the connection between the fabled Archons and the lesser known Sarkics.`
+
+---------
+# DRONE #
+---------
+
 ship 'Scud'
 	sprite "ship/scud"
 	thumbnail "thumbnail/scud"
@@ -556,3 +569,368 @@ ship 'Scud'
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`
+
+------------
+# VARIANTS #
+------------
+
+ship "Leviathan" 'leviathan plasma repeater'
+	outfits
+		"A375 Atomic Steering"
+		"Afterburner"
+		"Breeder Reactor"
+		"D94-YV Shield Generator" 2
+		"Heavy Anti-Missile Turret" 2
+		"Impala Plasma Thruster"
+		"Laser Rifle" 25
+		"Liquid Nitrogen Cooler"
+		"LP036a Battery Pack"
+		"Plasma Repeater" 4
+		"Ramscoop"
+		"Scram Drive"
+	gun "Plasma Repeater"
+	gun "Plasma Repeater"
+	gun "Plasma Repeater"
+	gun "Plasma Repeater"
+	turret
+	turret
+	turret "Heavy Anti-Missile Turret"
+	turret "Heavy Anti-Missile Turret"
+
+------------
+# OVERRIDE #
+------------
+
+ship "Lightning Bug"
+	attributes
+		licenses
+			"Hai Trust"
+			
+ship "Shield Beetle"
+	attributes
+		licenses
+			"Hai Trust"
+
+ship "Star Queen"
+	attributes
+		"required crew" 25
+
+ship "Albatross" "Albatross (Heavy)"
+	outfits
+		"Aeon Cell"
+		"Crucible-Class Thruster"
+		"Crystal Capacitor" 2
+		"Epoch Cell"
+		"Forge-Class Steering"
+		"Forge-Class Thruster"
+		"Hyperdrive"
+		"Inhibitor Cannon" 3
+		"Millennium Cell"
+		"Outfits Expansion" 4
+		"Quantum Key Stone"
+		"Smelter-Class Steering"
+		"Thermoelectric Cooler" 2
+		"Thrasher Cannon" 4
+		"Thrasher Turret" 3
+		"Tuning Rifle" 65
+
+ship "Archon"
+	fighter -32 -7 under left
+	fighter -22 20 under left
+	fighter -15 46 under left
+	fighter 15 46 under right
+	fighter 22 20 under right
+	fighter 32 -7 under right
+
+ship "Bactrian"
+	attributes
+		category "Transport"
+
+ship "Carrier" "Carrier (Jump)"
+	outfits
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		"Armageddon Core"
+		"Brig"
+		"D94-YV Shield Generator"
+		"Dwarf Core"
+		"Electron Turret" 2
+		"Fragmentation Grenades" 40
+		"Fuel Pod"
+		"Heavy Anti-Missile Turret" 2
+		"Jump Drive"
+		"Knockout Gas" 14
+		"Large Radar Jammer"
+		"Laser Rifle" 40
+		"Liquid Helium Cooler"
+		"LP072a Battery Pack"
+		"Outfits Expansion" 4
+		"Particle Cannon" 4
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Water Coolant System"
+
+ship "Carrier" "Carrier (Mark II)"
+	outfits
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		"Armageddon Core"
+		"Brig"
+		"D94-YV Shield Generator"
+		"Dwarf Core"
+		"Electron Turret" 2
+		"Fragmentation Grenades" 45
+		"Heavy Anti-Missile Turret" 2
+		"Hyperdrive"
+		"Knockout Gas" 17
+		"Large Radar Jammer" 2
+		"Laser Rifle" 45
+		"Liquid Helium Cooler"
+		"LP036a Battery Pack"
+		"Outfits Expansion" 3
+		"Particle Cannon" 4
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Supercapacitor" 3
+
+ship "Carrier"
+	outfits
+		"Brig"
+		"D94-YV Shield Generator"
+		"Fragmentation Grenades" 40
+		"Fusion Reactor"
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 2
+		"Hyperdrive"
+		"Knockout Gas" 14
+		"Large Radar Jammer" 2
+		"Laser Rifle" 40
+		"LP288a Battery Pack"
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+		"Particle Cannon" 4
+		"Security Station"
+		"Water Coolant System"
+		"X4200 Ion Steering"
+		"X5700 Ion Thruster"
+
+ship "Cruiser" "Cruiser (Heavy)"
+	outfits
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Armageddon Core"
+		"Brig"
+		"D94-YV Shield Generator"
+		"Dwarf Core"
+		"Fragmentation Grenades" 20
+		"Heavy Anti-Missile Turret"
+		"Heavy Laser Turret" 2
+		"Heavy Rocket Launcher" 2
+		"Heavy Rocket" 40
+		"Knockout Gas" 9
+		"Laser Rifle" 20
+		"Liquid Helium Cooler"
+		"Outfits Expansion"
+		"Particle Cannon" 4
+		"Quad Blaster Turret"
+		"Ramscoop"
+		"Scram Drive"
+		"Small Radar Jammer"
+		"Supercapacitor"
+		"X2200 Ion Steering"
+
+ship "Cruiser" "Cruiser (Jump)"
+	outfits
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Armageddon Core"
+		"D94-YV Shield Generator"
+		"Electron Turret" 3
+		"Fragmentation Grenades" 20
+		"Fuel Pod" 2
+		"Heavy Anti-Missile Turret"
+		"Jump Drive"
+		"Knockout Gas" 9
+		"Laser Rifle" 20
+		"Liquid Helium Cooler"
+		"LP036a Battery Pack"
+		"LP144a Battery Pack"
+		"Outfits Expansion" 2
+		"Ramscoop"
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Small Radar Jammer"
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 60
+
+ship "Cruiser" "Cruiser (Mark II)"
+	outfits
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Armageddon Core"
+		"D94-YV Shield Generator"
+		"Electron Turret" 2
+		"Fragmentation Grenades" 25
+		"Fuel Pod"
+		"Heavy Anti-Missile Turret" 2
+		"Hyperdrive"
+		"Knockout Gas" 13
+		"Large Radar Jammer"
+		"Laser Rifle" 25
+		"Liquid Helium Cooler"
+		"LP144a Battery Pack"
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile" 180
+		"Small Radar Jammer" 2
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 60
+
+ship "Cruiser"
+	outfits
+		"D67-TM Shield Generator"
+		"Fragmentation Grenades" 20
+		"Fusion Reactor"
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 2
+		"Hyperdrive"
+		"Knockout Gas" 9
+		"Large Radar Jammer" 2
+		"Laser Rifle" 20
+		"Liquid Nitrogen Cooler"
+		"LP288a Battery Pack"
+		"Particle Cannon" 4
+		"Security Station"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+
+ship "Flivver" "Flivver (Racing)"
+	sprite "ship/flivver_racing"
+	thumbnail "thumbnail/flivver_racing"
+	attributes
+		category "Transport"
+		cost 110000
+		shields 900
+		hull 250
+		"required crew" 1
+		bunks 2
+		mass 45
+		drag 1.1
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 130
+		"engine capacity" 55
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"A125 Atomic Steering"
+		"A250 Atomic Thruster"
+		"LP072a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"Scram Drive"
+	engine -12 20 .8
+	engine 12 20 .8
+	explode "small explosion" 15
+	explode "tiny explosion" 10
+
+ship "Frigate" "Frigate (Mark II)"
+	outfits
+		"A375 Atomic Steering"
+		"Anti-Missile Turret"
+		"Blaster Turret" 2
+		"D41-HY Shield Generator"
+		"Dwarf Core"
+		"Fragmentation Grenades" 8
+		"Hyperdrive"
+		"Knockout Gas" 3
+		"Laser Rifle" 8
+		"LP036a Battery Pack"
+		"NT-200 Nucleovoltaic"
+		"Outfits Expansion"
+		"Particle Cannon" 4
+		"Small Radar Jammer"
+		"Water Coolant System"
+		"X3700 Ion Thruster"
+
+ship "Frigate"
+	outfits
+		"Anti-Missile Turret"
+		"Blaster Turret" 2
+		"D41-HY Shield Generator"
+		"Fragmentation Grenades" 5
+		"Hyperdrive"
+		"Knockout Gas" 2
+		"Large Radar Jammer"
+		"Laser Rifle" 5
+		"LP144a Battery Pack"
+		"NT-200 Nucleovoltaic"
+		"Particle Cannon" 2
+		"Security Station"
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+
+ship "Starling" "Starling (Hunter)"
+	outfits
+		"Crystal Capacitor"
+		"Emergency Ramscoop"
+		"Epoch Cell"
+		"Forge-Class Steering"
+		"Forge-Class Thruster"
+		"Hyperdrive"
+		"Inhibitor Cannon" 2
+		"Millennium Cell"
+		"Quantum Key Stone"
+		"Thrasher Turret"
+		"Tuning Rifle" 11
+
+---------
+# SALES #
+---------
+
+shipyard 'Havenworks'
+	"Marauder Firebird"
+	"Marauder Leviathan"
+	"Modified Argosy"
+
+----------------------------
+# OVERRIDE SALES AES-OMNIS #
+----------------------------
+
+shipyard "drak"
+	"Sarkic"
+
+shipyard "experimental"
+	"Hydra"
+
+shipyard "human"
+	"Adel"
+	"Aesalon"
+	"Bennu"
+	"Bulwark"
+	"Hornet"
+	"Hydra"
+	"Paltry Freighter"
+
+shipyard "plugin"
+	"Paltry Freighter"
+	"Adel"
+	"Aesalon"
+	"Bennu"
+	"Bulwark"
+	"Hobby"
+	"Hornet"
+	"Sarkic"
+	"Scud"
+
+shipyard "remnant"
+	"Hobby"
+
+shipyard "wanderer"
+	"Scud"

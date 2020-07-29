@@ -1,48 +1,85 @@
+--------------------
+# FLEETS AES-OMNIS #
+--------------------
+
 fleet 'adel'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Adel"
+
 fleet 'aesalon'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Aesalon"
+
 fleet 'bennu'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Bennu"
+
 fleet 'bulwark'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Bulwark"
+
 fleet 'hobby'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Hobby"
+
 fleet 'hornet'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Hornet"
+
 fleet 'hydra'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Hydra"
+
 fleet 'paltry freighter'
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Paltry Freighter"
+
+------------
+# OVERRIDE #
+------------
+
+fleet "Wanderer Flycatchers"
+	add variant
+		"Scud" 2
+	add variant
+		"Scud" 3
+	add variant
+		"Scud" 4
+	add variant
+		"Scud" 5
+
+----------------------
+# OVERRIDE AES-OMNIS #
+----------------------
+
+fleet "archon"
+	government "Unknown "
+	personality
+		heroic
+	variant
+		"Archon"
+		"Sarkic" 6

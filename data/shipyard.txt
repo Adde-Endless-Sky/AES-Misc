@@ -1,4 +1,0 @@
-shipyard 'Havenworks'
-	"Marauder Firebird"
-	"Marauder Leviathan"
-	"Modified Argosy"

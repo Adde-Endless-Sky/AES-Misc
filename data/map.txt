@@ -1,3 +1,7 @@
+---------------
+# UNINHABITED #
+---------------
+
 system 'Celiatis'
 	pos -136 759
 	government "Uninhabited"
@@ -37,6 +41,7 @@ system 'Celiatis'
 		sprite "planet/dust0"
 		distance 2121
 		period 1893
+
 system 'Diespiter'
 	pos 332 210
 	government "Uninhabited"
@@ -72,6 +77,7 @@ system 'Diespiter'
 			sprite "planet/rock3"
 			distance 270
 			period 14
+
 system 'Egeria'
 	pos 288 146
 	government "Uninhabited"
@@ -110,6 +116,7 @@ system 'Egeria'
 		sprite "planet/wormhole-red"
 		distance 2313
 		period 389
+
 system 'Felii'
 	pos -209 817
 	government "Uninhabited"
@@ -146,6 +153,7 @@ system 'Felii'
 			sprite "planet/station6"
 			distance 246
 			period 16
+
 system 'Gerusti'
 	pos -241 754
 	government "Uninhabited"
@@ -188,6 +196,7 @@ system 'Gerusti'
 			sprite "planet/io"
 			distance 207
 			period 15
+
 system 'Mafari'
 	pos -172 723
 	government "Uninhabited"
@@ -232,6 +241,7 @@ system 'Mafari'
 		sprite "planet/gas6"
 		distance 2066
 		period 907
+
 system 'Marati'
 	pos -106 572
 	government "Uninhabited"
@@ -278,6 +288,7 @@ system 'Marati'
 			sprite "planet/europa"
 			distance 182
 			period 14
+
 system 'Ottava'
 	pos -76 525
 	government "Uninhabited"
@@ -321,6 +332,7 @@ system 'Ottava'
 		sprite "planet/gas6"
 		distance 3083
 		period 2053
+
 system 'Paritixi'
 	pos -137 698
 	government "Uninhabited"
@@ -350,6 +362,7 @@ system 'Paritixi'
 		sprite "planet/luna"
 		distance 1356
 		period 1116
+
 system 'Perima'
 	pos -254 634
 	government "Uninhabited"
@@ -391,6 +404,7 @@ system 'Perima'
 		sprite "planet/miranda"
 		distance 3722
 		period 3633
+
 system 'Postverta'
 	pos 297 269
 	government "Uninhabited"
@@ -421,6 +435,7 @@ system 'Postverta'
 		sprite "planet/rock10"
 		distance 1208
 		period 654
+
 system 'Prima'
 	pos -176 666
 	government "Uninhabited"
@@ -467,6 +482,7 @@ system 'Prima'
 		sprite "planet/desert4"
 		distance 2516
 		period 1043
+
 system 'Prosa'
 	pos 303 194
 	government "Uninhabited"
@@ -512,6 +528,7 @@ system 'Prosa'
 		sprite "planet/wormhole-red"
 		distance 2313
 		period 389
+
 system 'Raliesa'
 	pos -229 681
 	government "Uninhabited"
@@ -560,7 +577,8 @@ system 'Raliesa'
 		object
 			sprite "planet/ice0"
 			distance 378
-			period 24x
+			period 24
+
 system 'Remia'
 	pos -134 619
 	government "Uninhabited"
@@ -604,6 +622,7 @@ system 'Remia'
 			sprite "planet/tethys"
 			distance 689
 			period 47
+
 system 'Resetus'
 	pos -176 568
 	government "Uninhabited"
@@ -652,6 +671,7 @@ system 'Resetus'
 			sprite "planet/callisto"
 			distance 233
 			period 13
+
 system 'Statina'
 	pos 385 198
 	government "Uninhabited"
@@ -692,6 +712,7 @@ system 'Statina'
 		sprite "planet/wormhole-red"
 		distance 2754
 		period 389
+
 system 'Vaticanus'
 	pos 324 112
 	government "Uninhabited"
@@ -737,3 +758,140 @@ system 'Vaticanus'
 		sprite "planet/wormhole-red"
 		distance 2754
 		period 389
+
+------------
+# OVERRIDE #
+------------
+
+system "Caeculus"
+	add object "barren wormhole 2"
+		sprite "planet/wormhole-red"
+		distance 2313
+		period 389
+
+system "Lucina"
+	add object "barren wormhole"
+		sprite "planet/wormhole-red"
+		distance 2313
+		period 389
+
+----------------------
+# OVERRIDE AES-OMNIS #
+----------------------
+
+system "Omnis"
+	add object "Paltry Freighter"
+		sprite "ship/paltry_freighter"
+		distance 4000
+		offset -8
+	add object "Adel"
+		sprite "ship/adel"
+		distance 4000
+		offset -12
+	add object "Aesalon"
+		sprite "ship/aesalon"
+		distance 4000
+		offset -16
+	add object "Bennu"
+		sprite "ship/bennu"
+		distance 4000
+		offset -20
+	add object "Bulwark"
+		sprite "ship/bulwark"
+		distance 4000
+		offset -24
+	add object "Hornet"
+		sprite "ship/hornet"
+		distance 4000
+		offset -28
+	add object "Hydra"
+		sprite "ship/hydra"
+		distance 4000
+		offset -32
+	add object "Hobby"
+		sprite "ship/hobby"
+		distance 6000
+		offset -6
+
+---------------------
+# PLANETS AES-OMNIS #
+---------------------
+
+planet 'Adel'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "adel"
+
+planet 'Aesalon'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "aesalon"
+
+planet 'Bennu'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "bennu"
+
+planet 'Bulwark'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "bulwark"
+
+planet 'Hobby'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "hobby"
+
+planet 'Hornet'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "hornet"
+
+planet 'Hydra'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "hydra"
+
+planet 'Paltry Freighter'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "paltry freighter"
+
+--------------------
+# OVERRIDE PLANETS #
+--------------------
+
+planet "Haven"
+	shipyard "Havenworks"
+
+-------------
+# WORMHOLES #
+-------------
+
+planet 'barren wormhole'
+	description ``
+
+planet 'barren wormhole 2'
+	description ``
+
+planet 'barren wormhole 3'
+	description ``
+
+planet 'link wormhole'
+	description ``

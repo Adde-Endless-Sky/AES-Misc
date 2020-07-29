@@ -1,3 +1,7 @@
+------------
+# OVERRIDE #
+------------
+
 government "Independent"
 	"penalty for"
 		assist 0
@@ -5,6 +9,7 @@ government "Independent"
 		capture 0
 		destroy 0
 		disable 0
+		
 government "Pirate"
 	"attitude toward"
 		"Bounty Hunter" -.01

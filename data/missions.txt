@@ -1,3 +1,7 @@
+------------------
+# DRAK INTERCEPT #
+------------------
+
 mission 'drak guarding Prima'
 	invisible
 	landing
@@ -47,36 +51,11 @@ mission 'drak guarding Prima'
 			`	The shadows grow, reaching for you, grasping for what the light abandons, waiting. The darkness ensues and you submit, reaching for the man in the corner.`
 			`	"Be gone, quick." the voice says. The cancer within your head seems to fall away, and you are left talking to thin air, with no more than a hazy experience to carry with you. Perhaps it was a warning.`
 				decline
-mission 'syndicate target practice 4'
-	name `Syndicate target practice`
-	description `Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>.`
-	job
-	repeat
-	to offer
-		"combat rating" > 1400
-		"random" < 20
-	source
-		government "Syndicate"
-	destination
-		government "Syndicate"
-		distance 1 3
-	npc disable "scan cargo"
-		government "Test Dummy"
-		personality
-			heroic
-			staying
-			target
-		system destination
-		dialog
-			`You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>.`
-		ship "Bulwark" `Syndicate Test Vessel`
-	on complete
-		dialog
-			`You transmit the scan results to a team of eager engineers and collect your payment of <payment>.`
-		payment 160000
-	on visit
-		dialog
-			`You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment.`
+
+-------------------
+# WEAPONS TESTING #
+-------------------
+
 mission 'test plasma repeater 1'
 	name `Weapon Testing`
 	description `When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test.`
@@ -91,6 +70,7 @@ mission 'test plasma repeater 1'
 		conversation
 			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and I couldn't think of a more capable pilot to test it.`
 				accept
+
 mission 'test plasma repeater 2'
 	name `Weapon Testing`
 	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
@@ -124,7 +104,6 @@ mission 'test plasma repeater 2'
 					decline
 			`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
 				accept
-
 	on complete
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
@@ -145,3 +124,7 @@ mission 'test plasma repeater 2'
 			label available
 			`	"Well, I should have an initial model for sale in a month or so," he says. "I'll be interested to see what uses you or anyone else might find for them. Anyway, thanks for your help." You say goodbye and head back to your ship.`
 		event "plasma repeater available" 30
+
+event "plasma repeater available"
+	outfitter "Kraz Advanced"
+		"Plasma Repeater"
