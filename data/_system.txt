@@ -1,43 +1,43 @@
-system Caeculus
-	add object barren_wormhole2
+system "Caeculus"
+	add object "barren wormhole 2"
+		sprite "planet/wormhole-red"
 		distance 2313
 		period 389
-		sprite planet/wormhole-red
-system Lucina
-	add object barren_wormhole
+system "Lucina"
+	add object "barren wormhole"
+		sprite "planet/wormhole-red"
 		distance 2313
 		period 389
-		sprite planet/wormhole-red
-system Omnis
+system "Omnis"
 	add object "Paltry Freighter"
+		sprite "ship/paltry_freighter"
 		distance 4000
 		offset -8
-		sprite ship/paltry_freighter
-	add object Adel
+	add object "Adel"
+		sprite "ship/adel"
 		distance 4000
 		offset -12
-		sprite ship/adel
-	add object Aesalon
+	add object "Aesalon"
+		sprite "ship/aesalon"
 		distance 4000
 		offset -16
-		sprite ship/aesalon
-	add object Bennu
+	add object "Bennu"
+		sprite "ship/bennu"
 		distance 4000
 		offset -20
-		sprite ship/bennu
-	add object Bulwark
+	add object "Bulwark"
+		sprite "ship/bulwark"
 		distance 4000
 		offset -24
-		sprite ship/bulwark
-	add object Hobby
-		distance 6000
-		offset -6
-		sprite ship/hobby
-	add object Hornet
+	add object "Hornet"
+		sprite "ship/hornet"
 		distance 4000
 		offset -28
-		sprite ship/hornet
-	add object Hydra
+	add object "Hydra"
+		sprite "ship/hydra"
 		distance 4000
 		offset -32
-		sprite ship/hydra
+	add object "Hobby"
+		sprite "ship/hobby"
+		distance 6000
+		offset -6

@@ -9,7 +9,7 @@ ship "Shield Beetle"
 ship "Star Queen"
 	attributes
 		"required crew" 25
-ship Albatross "Albatross (Heavy)"
+ship "Albatross" "Albatross (Heavy)"
 	outfits
 		"Aeon Cell"
 		"Crucible-Class Thruster"
@@ -17,6 +17,7 @@ ship Albatross "Albatross (Heavy)"
 		"Epoch Cell"
 		"Forge-Class Steering"
 		"Forge-Class Thruster"
+		"Hyperdrive"
 		"Inhibitor Cannon" 3
 		"Millennium Cell"
 		"Outfits Expansion" 4
@@ -26,22 +27,22 @@ ship Albatross "Albatross (Heavy)"
 		"Thrasher Cannon" 4
 		"Thrasher Turret" 3
 		"Tuning Rifle" 65
-		Hyperdrive
-ship Archon
-	fighter -15 46 under left
-	fighter -22 20 under left
+ship "Archon"
 	fighter -32 -7 under left
+	fighter -22 20 under left
+	fighter -15 46 under left
 	fighter 15 46 under right
 	fighter 22 20 under right
 	fighter 32 -7 under right
-ship Bactrian
+ship "Bactrian"
 	attributes
-		category Transport
-ship Carrier "Carrier (Jump)"
+		category "Transport"
+ship "Carrier" "Carrier (Jump)"
 	outfits
 		"A525 Atomic Steering"
 		"A860 Atomic Thruster"
 		"Armageddon Core"
+		"Brig"
 		"D94-YV Shield Generator"
 		"Dwarf Core"
 		"Electron Turret" 2
@@ -59,17 +60,18 @@ ship Carrier "Carrier (Jump)"
 		"Sidewinder Missile Launcher" 4
 		"Sidewinder Missile" 180
 		"Water Coolant System"
-		Brig
-ship Carrier "Carrier (Mark II)"
+ship "Carrier" "Carrier (Mark II)"
 	outfits
 		"A525 Atomic Steering"
 		"A860 Atomic Thruster"
 		"Armageddon Core"
+		"Brig"
 		"D94-YV Shield Generator"
 		"Dwarf Core"
 		"Electron Turret" 2
 		"Fragmentation Grenades" 45
 		"Heavy Anti-Missile Turret" 2
+		"Hyperdrive"
 		"Knockout Gas" 17
 		"Large Radar Jammer" 2
 		"Laser Rifle" 45
@@ -79,16 +81,16 @@ ship Carrier "Carrier (Mark II)"
 		"Particle Cannon" 4
 		"Sidewinder Missile Launcher" 4
 		"Sidewinder Missile" 180
-		Brig
-		Hyperdrive
-		Supercapacitor 3
-ship Carrier
+		"Supercapacitor" 3
+ship "Carrier"
 	outfits
+		"Brig"
 		"D94-YV Shield Generator"
 		"Fragmentation Grenades" 40
 		"Fusion Reactor"
 		"Heavy Anti-Missile Turret" 2
 		"Heavy Laser Turret" 2
+		"Hyperdrive"
 		"Knockout Gas" 14
 		"Large Radar Jammer" 2
 		"Laser Rifle" 40
@@ -100,13 +102,12 @@ ship Carrier
 		"Water Coolant System"
 		"X4200 Ion Steering"
 		"X5700 Ion Thruster"
-		Brig
-		Hyperdrive
-ship Cruiser "Cruiser (Heavy)"
+ship "Cruiser" "Cruiser (Heavy)"
 	outfits
 		"A520 Atomic Thruster"
 		"A525 Atomic Steering"
 		"Armageddon Core"
+		"Brig"
 		"D94-YV Shield Generator"
 		"Dwarf Core"
 		"Fragmentation Grenades" 20
@@ -120,13 +121,12 @@ ship Cruiser "Cruiser (Heavy)"
 		"Outfits Expansion"
 		"Particle Cannon" 4
 		"Quad Blaster Turret"
+		"Ramscoop"
 		"Scram Drive"
 		"Small Radar Jammer"
 		"Supercapacitor"
 		"X2200 Ion Steering"
-		Brig
-		Ramscoop
-ship Cruiser "Cruiser (Jump)"
+ship "Cruiser" "Cruiser (Jump)"
 	outfits
 		"A520 Atomic Thruster"
 		"A525 Atomic Steering"
@@ -143,13 +143,13 @@ ship Cruiser "Cruiser (Jump)"
 		"LP036a Battery Pack"
 		"LP144a Battery Pack"
 		"Outfits Expansion" 2
+		"Ramscoop"
 		"Sidewinder Missile Launcher" 4
 		"Sidewinder Missile" 180
 		"Small Radar Jammer"
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
-		Ramscoop
-ship Cruiser "Cruiser (Mark II)"
+ship "Cruiser" "Cruiser (Mark II)"
 	outfits
 		"A520 Atomic Thruster"
 		"A525 Atomic Steering"
@@ -159,6 +159,7 @@ ship Cruiser "Cruiser (Mark II)"
 		"Fragmentation Grenades" 25
 		"Fuel Pod"
 		"Heavy Anti-Missile Turret" 2
+		"Hyperdrive"
 		"Knockout Gas" 13
 		"Large Radar Jammer"
 		"Laser Rifle" 25
@@ -169,14 +170,14 @@ ship Cruiser "Cruiser (Mark II)"
 		"Small Radar Jammer" 2
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
-		Hyperdrive
-ship Cruiser
+ship "Cruiser"
 	outfits
 		"D67-TM Shield Generator"
 		"Fragmentation Grenades" 20
 		"Fusion Reactor"
 		"Heavy Anti-Missile Turret" 2
 		"Heavy Laser Turret" 2
+		"Hyperdrive"
 		"Knockout Gas" 9
 		"Large Radar Jammer" 2
 		"Laser Rifle" 20
@@ -188,40 +189,39 @@ ship Cruiser
 		"Sidewinder Missile" 90
 		"X4200 Ion Steering"
 		"X4700 Ion Thruster"
-		Hyperdrive
-ship Flivver "Flivver (Racing)"
+ship "Flivver" "Flivver (Racing)"
+	sprite "ship/flivver_racing"
+	thumbnail "thumbnail/flivver_racing"
 	attributes
-		"cargo space" 15
-		"engine capacity" 55
-		"fuel capacity" 600
-		"heat dissipation" .8
-		"outfit space" 130
+		category "Transport"
+		cost 110000
+		shields 900
+		hull 250
 		"required crew" 1
 		bunks 2
-		category Transport
-		cost 110000
-		drag 1.1
-		hull 250
 		mass 45
-		shields 900
+		drag 1.1
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 130
+		"engine capacity" 55
 		weapon
 			"blast radius" 16
-			"hit force" 240
-			"hull damage" 80
 			"shield damage" 160
-	engine -12 20 .8
-	engine 12 20 .8
-	explode "small explosion" 15
-	explode "tiny explosion" 10
+			"hull damage" 80
+			"hit force" 240
 	outfits
 		"A125 Atomic Steering"
 		"A250 Atomic Thruster"
 		"LP072a Battery Pack"
 		"nGVF-BB Fuel Cell"
 		"Scram Drive"
-	sprite ship/flivver_racing
-	thumbnail thumbnail/flivver_racing
-ship Frigate "Frigate (Mark II)"
+	engine -12 20 .8
+	engine 12 20 .8
+	explode "small explosion" 15
+	explode "tiny explosion" 10
+ship "Frigate" "Frigate (Mark II)"
 	outfits
 		"A375 Atomic Steering"
 		"Anti-Missile Turret"
@@ -229,6 +229,7 @@ ship Frigate "Frigate (Mark II)"
 		"D41-HY Shield Generator"
 		"Dwarf Core"
 		"Fragmentation Grenades" 8
+		"Hyperdrive"
 		"Knockout Gas" 3
 		"Laser Rifle" 8
 		"LP036a Battery Pack"
@@ -238,13 +239,13 @@ ship Frigate "Frigate (Mark II)"
 		"Small Radar Jammer"
 		"Water Coolant System"
 		"X3700 Ion Thruster"
-		Hyperdrive
-ship Frigate
+ship "Frigate"
 	outfits
 		"Anti-Missile Turret"
 		"Blaster Turret" 2
 		"D41-HY Shield Generator"
 		"Fragmentation Grenades" 5
+		"Hyperdrive"
 		"Knockout Gas" 2
 		"Large Radar Jammer"
 		"Laser Rifle" 5
@@ -253,20 +254,19 @@ ship Frigate
 		"Particle Cannon" 2
 		"Security Station"
 		"Torpedo Launcher" 2
+		"Torpedo" 60
 		"X3200 Ion Steering"
 		"X3700 Ion Thruster"
-		Hyperdrive
-		Torpedo 60
-ship Starling "Starling (Hunter)"
+ship "Starling" "Starling (Hunter)"
 	outfits
 		"Crystal Capacitor"
 		"Emergency Ramscoop"
 		"Epoch Cell"
 		"Forge-Class Steering"
 		"Forge-Class Thruster"
+		"Hyperdrive"
 		"Inhibitor Cannon" 2
 		"Millennium Cell"
 		"Quantum Key Stone"
 		"Thrasher Turret"
 		"Tuning Rifle" 11
-		Hyperdrive

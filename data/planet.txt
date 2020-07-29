@@ -1,56 +1,56 @@
-planet "Paltry Freighter"
+planet 'Paltry Freighter'
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet paltry_freighter
-planet Adel
+		fleet "paltry freighter"
+planet 'Adel'
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet adel
-planet Aesalon
+		fleet "adel"
+planet 'Aesalon'
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet aesalon
-planet barren_wormhole
+		fleet "aesalon"
+planet 'barren wormhole'
 	description ``
-planet barren_wormhole2
+planet 'barren wormhole 2'
 	description ``
-planet Bennu
-	bribe 0
-	government "Unknown "
-	tribute 1
-		threshold 0
-		fleet bennu
-planet Bulwark
-	bribe 0
-	government "Unknown "
-	tribute 1
-		threshold 0
-		fleet bulwark
-planet graveyard_wormhole3
+planet 'barren wormhole 3'
 	description ``
-planet Hobby
+planet 'Bennu'
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet hobby
-planet Hornet
+		fleet "bennu"
+planet 'Bulwark'
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet hornet
-planet Hydra
+		fleet "bulwark"
+planet 'Hobby'
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
-		fleet hydra
-planet link_wormhole
+		fleet "hobby"
+planet 'Hornet'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "hornet"
+planet 'Hydra'
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "hydra"
+planet 'link wormhole'
 	description ``

@@ -1,18 +1,21 @@
-mission drak_guarding_Prima
+mission 'drak guarding Prima'
 	invisible
 	landing
 	npc kill
 		government Drak
-		personality heroic vindictive staying
-		ship Archon "Solemn Custodian"
-		ship Sarkic ???
-		ship Sarkic ???
-		ship Sarkic ???
-		ship Sarkic ???
-		ship Sarkic ???
-		ship Sarkic ???
-		system Prima
-	on enter Prima
+		personality
+			heroic
+			staying
+			vindictive
+		system "Prima"
+		ship "Archon" `Solemn Custodian`
+		ship "Sarkic" ???
+		ship "Sarkic" ???
+		ship "Sarkic" ???
+		ship "Sarkic" ???
+		ship "Sarkic" ???
+		ship "Sarkic" ???
+	on enter "Prima"
 		conversation
 			`A voice says, "This system is restricted. You should stay away."`
 			`	A moment goes by, with no reasonable explanation you wonder if that sound was just in your head. The words do however remain, as if burned into your mind.`
@@ -31,6 +34,8 @@ mission drak_guarding_Prima
 			choice
 				`	"What do you mean, 'tend to the minds of the Forsaken'?"`
 				`	"What happened to the Forsaken?"`
+				`	"Okay. I'm leaving."`
+					decline
 			`	"A great calamity befell this species long ago, they regressed to a state of disrepair that rendered them helpless to the challenges they would otherwise find trivial." As the voice says this, a pain reveals itself within your mind, as if a cancer is spreading at an unprecedented rate, you feel as though all your past experiences are fading with it's presence.`
 			choice
 				`	"What is happening?!"`
@@ -42,20 +47,29 @@ mission drak_guarding_Prima
 			`	The shadows grow, reaching for you, grasping for what the light abandons, waiting. The darkness ensues and you submit, reaching for the man in the corner.`
 			`	"Be gone, quick." the voice says. The cancer within your head seems to fall away, and you are left talking to thin air, with no more than a hazy experience to carry with you. Perhaps it was a warning.`
 				decline
-mission syndicate_target_practice_4
-	description `Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>.`
-	destination
-		distance 1 3
-		government Syndicate
-	job
+mission 'syndicate target practice 4'
 	name `Syndicate target practice`
+	description `Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>.`
+	job
+	repeat
+	to offer
+		"combat rating" > 1400
+		"random" < 20
+	source
+		government "Syndicate"
+	destination
+		government "Syndicate"
+		distance 1 3
 	npc disable "scan cargo"
+		government "Test Dummy"
+		personality
+			heroic
+			staying
+			target
+		system destination
 		dialog
 			`You scan the disabled craft and take careful measurements of the battle damage. Time to deliver the results on <planet>.`
-		government "Test Dummy"
-		personality heroic staying target
-		ship Bulwark `Syndicate Test Vessel`
-		system destination
+		ship "Bulwark" `Syndicate Test Vessel`
 	on complete
 		dialog
 			`You transmit the scan results to a team of eager engineers and collect your payment of <payment>.`
@@ -63,39 +77,58 @@ mission syndicate_target_practice_4
 	on visit
 		dialog
 			`You forgot to either disable or scan the target dummy ship in <system>! You'll need to head back there and do that before you can return here for payment.`
-	repeat
-	source
-		government Syndicate
-	to offer
-		"combat rating" > 1400
-		random < 20
-mission test_plasma_repeater_1
-	description `When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test.`
-	destination Rust
-	landing
+mission 'test plasma repeater 1'
 	name `Weapon Testing`
+	description `When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test.`
+	landing
+	to offer
+		"random" < 10
+		has "free worlds plot completed"
+	source
+		near "Kraz" 1 100
+	destination "Rust"
 	on offer
 		conversation
 			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and I couldn't think of a more capable pilot to test it.`
 				accept
-	source
-		near Kraz 1 100
-	to offer
-		has "free worlds plot completed"
-		random < 10
-mission test_plasma_repeater_2
+mission 'test plasma repeater 2'
+	name `Weapon Testing`
 	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
 	landing
-	name `Weapon Testing`
-	npc save disable
-		personality disables heroic staying
+	to offer
+		has "free worlds plot completed"
+		has "test plasma repeater 1: done"
+	source "Rust"
+	npc disable save
 		government "Test Dummy"
-		ship leviathan_plasma_repeater Warlock
+		personality
+			disables
+			heroic
+			staying
+		ship "leviathan plasma repeater" `Warlock`
+	on offer
+		conversation
+			`You received a message recently from an old friend, Barmy Edwards, asking you to stop by the Kraz Cybernetics facility to help test a new weapon. Do you want to visit them now?`
+			choice
+				`	(Yes.)`
+				`	(No.)`
+					defer
+			scene "scene/loc5"
+			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Here's the deal. We've got a new weapon, something that could have helped our chances during the war had we finished prototyping just a little earlier."`
+			`	"Of course," you say.`
+			`	"Great," he says. "You shouldn't notice too much out of the ordinary other than meeting the Warlock in orbit, it has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its weapons."`
+			`	He shakes a finger in your face and says, "Now mind you, we just want you to disable the Warlock, not destroy it. We've recommissioned it from retirement, so it's not top of the line, but all the same I want to be able to keep using it for future tests. Understood?"`
+			choice
+				`	"Okay, I promise not to destroy it or steal it."`
+				`	"Sorry, this sounds a bit too risky. I'd rather not be involved in this sort of testing."`
+					decline
+			`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
+				accept
+
 	on complete
-		event plasma_repeater_available 30
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
-			scene outfit/plasma_repeater
+			scene "outfit/plasma_repeater"
 			`You head to the hangar to meet up with Barmy Edward, and find him tinkering with a large gun much like an old Plasma Cannon, but somewhat different. Presumably, this is the weapon that you were just attacked with in orbit. "It runs alot hotter, you see," he says. "But the results are impressive."`
 			choice
 				`	"What was that?"`
@@ -111,25 +144,4 @@ mission test_plasma_repeater_2
 			`	"That is an interesting idea," you say. "Are they available for sale yet?"`
 			label available
 			`	"Well, I should have an initial model for sale in a month or so," he says. "I'll be interested to see what uses you or anyone else might find for them. Anyway, thanks for your help." You say goodbye and head back to your ship.`
-	on offer
-		conversation
-			`You received a message recently from an old friend, Barmy Edwards, asking you to stop by the Kraz Cybernetics facility to help test a new weapon. Do you want to visit them now?`
-			choice
-				`	(Yes.)`
-				`	(No.)`
-					defer
-			scene scene/loc5
-			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Here's the deal. We've got a new weapon, something that could have helped our chances during the war had we finished prototyping just a little earlier."`
-			`	"Of course," you say.`
-			`	"Great," he says. "You shouldn't notice too much out of the ordinary other than meeting the Warlock in orbit, it has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its weapons."`
-			`	He shakes a finger in your face and says, "Now mind you, we just want you to disable the Warlock, not destroy it. We've recommissioned it from retirement, so it's not top of the line, but all the same I want to be able to keep using it for future tests. Understood?"`
-			choice
-				`	"Okay, I promise not to destroy it or steal it."`
-				`	"Sorry, this sounds a bit too risky. I'd rather not be involved in this sort of testing."`
-					decline
-			`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
-				accept
-	source Rust
-	to offer
-		has "free worlds plot completed"
-		has "test_plasma_repeater_1: done"
+		event "plasma repeater available" 30

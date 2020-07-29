@@ -1,2 +1,2 @@
-planet Haven
-	shipyard Havenworks
+planet "Haven"
+	shipyard "Havenworks"

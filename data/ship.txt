@@ -1,128 +1,120 @@
-ship "Paltry Freighter"
-	"final explode" "final explosion medium"
+ship 'Paltry Freighter'
+	sprite "ship/paltry_freighter"
+	thumbnail "thumbnail/paltry_freighter"
 	attributes
-		"cargo space" 100
-		"engine capacity" 70
-		"fuel capacity" 300
-		"heat dissipation" .7
-		"outfit space" 210
-		"required crew" 2
-		"weapon capacity" 60
-		bunks 9
 		category "Light Freighter"
 		cost 1900000
-		drag 9.8
-		hull 5200
-		mass 310
 		shields 2700
+		hull 5200
+		"required crew" 2
+		bunks 9
+		mass 310
+		drag 9.8
+		"heat dissipation" .7
+		"fuel capacity" 300
+		"cargo space" 100
+		"outfit space" 210
+		"weapon capacity" 60
+		"engine capacity" 70
 		weapon
 			"blast radius" 110
-			"hit force" 1100
-			"hull damage" 250
 			"shield damage" 650
-	engine -19 63
-	engine 19 63
-	explode "large explosion" 14
-	explode "medium explosion" 24
-	explode "small explosion" 22
-	description `Often described as unoriginal or a deathtrap, comes the Paltry Freighter. It's often mocked for its usefulness, as many ships already exist to step in at that price range for merchant captains.`
-	description `The creativity behind this vessel is very limited, it was released long after the Bulk Freighter was and is very obviously the same frame but with many of its cargo pods removed to cut down on size and price.`
-	gun 0 -73 "Sidewinder Missile Launcher"
-	leak "big leak" 50 30
-	leak "flame" 30 80
-	leak "leak" 40 50
+			"hull damage" 250
+			"hit force" 1100
 	outfits
 		"Anti-Missile Turret" 2
 		"D23-QP Shield Generator"
+		"Hyperdrive"
 		"LP072a Battery Pack"
 		"nGVF-CC Fuel Cell"
 		"Sidewinder Missile Launcher"
 		"Sidewinder Missile" 45
 		"X2700 Ion Thruster"
 		"X3200 Ion Steering"
-		Hyperdrive
-	sprite ship/paltry_freighter
-	thumbnail thumbnail/paltry_freighter
+	engine -19 63
+	engine 19 63
+	gun 0 -73 "Sidewinder Missile Launcher"
 	turret -9 -33 "Anti-Missile Turret"
 	turret 9 -33 "Anti-Missile Turret"
-ship Adel
+	leak "big leak" 50 30
+	leak "flame" 30 80
+	leak "leak" 40 50
+	explode "small explosion" 22
+	explode "medium explosion" 24
+	explode "large explosion" 14
+	"final explode" "final explosion medium"
+	description `Often described as unoriginal or a deathtrap, comes the Paltry Freighter. It's often mocked for its usefulness, as many ships already exist to step in at that price range for merchant captains.`
+	description `The creativity behind this vessel is very limited, it was released long after the Bulk Freighter was and is very obviously the same frame but with many of its cargo pods removed to cut down on size and price.`
+ship 'Adel'
+	sprite "ship/adel"
+	thumbnail "thumbnail/adel"
 	attributes
-		"cargo space" 12
-		"engine capacity" 54
-		"fuel capacity" 400
-		"heat dissipation" .95
-		"outfit space" 206
-		"required crew" 1
-		"weapon capacity" 43
-		bunks 5
-		category Interceptor
+		category "Interceptor"
 		cost 648000
-		drag 2.8
-		hull 1600
-		mass 115
 		shields 1900
+		hull 1600
+		"required crew" 1
+		bunks 5
+		mass 115
+		drag 2.8
+		"heat dissipation" .95
+		"fuel capacity" 400
+		"cargo space" 12
+		"outfit space" 206
+		"weapon capacity" 43
+		"engine capacity" 54
 		weapon
 			"blast radius" 40
-			"hit force" 650
-			"hull damage" 200
 			"shield damage" 400
-	description `While the Aphid is revered by the Hai as the perfect ship for beginner pilots, certain pirates roaming the outskirts of human space tend to disagree with its role as a freighter. What became very popular with pirates however is the potential that the Aphid offers, bolstered with three gun ports and additional alien plating strapped onto the hull brings this well within the realm of an interceptor.`
-	description `Apparently the pirates responsible manage to salvage quite a few Aphid hulls that allow them to pull off such a heinous design.`
-	engine -20 50
-	engine -9 47
-	engine 20 50
-	engine 9 47
-	explode "medium explosion" 15
-	explode "small explosion" 20
-	explode "tiny explosion" 10
-	gun -6 -49.3 "Beam Laser"
-	gun 0 -53 "Korath Fire-Lance"
-	gun 6 -49.3 "Beam Laser"
+			"hull damage" 200
+			"hit force" 650
 	outfits
 		"A255 Atomic Steering"
 		"Beam Laser" 2
 		"Generator (Candle Class)"
 		"Hai Chasm Batteries"
 		"Hai Williwaw Cooling"
+		"Hyperdrive"
 		"Korath Fire-Lance"
 		"Pebble Core"
 		"Quantum Key Stone"
 		"S-270 Regenerator" 2
 		`"Benga" Atomic Thruster`
-		Hyperdrive
-	sprite ship/adel
-	thumbnail thumbnail/adel
-ship Aesalon
-	"final explode" "final explosion medium"
+	engine -20 50
+	engine -9 47
+	engine 9 47
+	engine 20 50
+	gun -6 -49.3 "Beam Laser"
+	gun 0 -53 "Korath Fire-Lance"
+	gun 6 -49.3 "Beam Laser"
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description `While the Aphid is revered by the Hai as the perfect ship for beginner pilots, certain pirates roaming the outskirts of human space tend to disagree with its role as a freighter. What became very popular with pirates however is the potential that the Aphid offers, bolstered with three gun ports and additional alien plating strapped onto the hull brings this well within the realm of an interceptor.`
+	description `Apparently the pirates responsible manage to salvage quite a few Aphid hulls that allow them to pull off such a heinous design.`
+ship 'Aesalon'
+	sprite "ship/aesalon"
+	thumbnail "thumbnail/aesalon"
 	attributes
-		"cargo space" 60
-		"engine capacity" 200
-		"fuel capacity" 700
-		"heat dissipation" .6
-		"outfit space" 679
-		"required crew" 57
-		"weapon capacity" 255
-		bunks 82
 		category "Heavy Warship"
 		cost 13400000
-		drag 7.4
-		hull 9800
-		mass 580
 		shields 15100
+		hull 9800
+		"required crew" 57
+		bunks 82
+		mass 580
+		drag 7.4
+		"heat dissipation" .6
+		"fuel capacity" 700
+		"cargo space" 60
+		"outfit space" 679
+		"weapon capacity" 255
+		"engine capacity" 200
 		weapon
 			"blast radius" 160
-			"hit force" 2400
-			"hull damage" 800
 			"shield damage" 1600
-	description `The Aesalon is by no means an original design, built up from the Tarazed Falcon, however it is quite obvious that there was very many creative liberties taken with the modifications. Outclassing the original design in almost every way, it's obvious why such an extent of time and effort was exhausted in transforming the iconic design of the Falcon.`
-	engine -19.5 173.5
-	engine 19.5 173.5
-	explode "large explosion" 40
-	explode "medium explosion" 60
-	explode "small explosion" 55
-	explode "tiny explosion" 40
-	gun -19.5 -108 "EMP Torpedo Bay"
-	gun 19.5 -108 "EMP Torpedo Bay"
+			"hull damage" 800
+			"hit force" 2400
 	outfits
 		"A120 Atomic Thruster"
 		"D41-HY Shield Generator"
@@ -141,50 +133,49 @@ ship Aesalon
 		"Outfits Expansion"
 		"Scram Drive"
 		"Systems Core (Medium)"
-	sprite ship/aesalon
-	thumbnail thumbnail/aesalon
+	engine -19.5 173.5
+	engine 19.5 173.5
+	gun -19.5 -108 "EMP Torpedo Bay"
+	gun 19.5 -108 "EMP Torpedo Bay"
 	turret -63 45.5 "Laser Turret"
 	turret 0 44.5 "Electron Turret"
 	turret 0 7.5 "Laser Turret"
 	turret 63 45.5 "Electron Turret"
-ship Bennu
+	explode "tiny explosion" 40
+	explode "small explosion" 55
+	explode "medium explosion" 60
+	explode "large explosion" 40
 	"final explode" "final explosion medium"
+	description `The Aesalon is by no means an original design, built up from the Tarazed Falcon, however it is quite obvious that there was very many creative liberties taken with the modifications. Outclassing the original design in almost every way, it's obvious why such an extent of time and effort was exhausted in transforming the iconic design of the Falcon.`
+ship 'Bennu'
+	sprite "ship/bennu"
+	thumbnail "thumbnail/bennu"
 	attributes
-		"cargo space" 35
-		"engine capacity" 105
-		"fuel capacity" 400
-		"heat dissipation" .7
-		"outfit space" 430
-		"required crew" 8
-		"weapon capacity" 155
-		bunks 25
 		category "Medium Warship"
 		cost 3920000
-		drag 4.8
-		hull 3300
-		mass 330
 		shields 8700
+		hull 3300
+		"required crew" 8
+		bunks 25
+		mass 330
+		drag 4.8
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 35
+		"weapon capacity" 155
+		"engine capacity" 105
+		"outfit space" 430
 		weapon
 			"blast radius" 150
-			"hit force" 1550
-			"hull damage" 600
 			"shield damage" 1100
-	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
-	engine -36 78
-	engine 36 78
-	explode "large explosion" 8
-	explode "medium explosion" 24
-	explode "small explosion" 36
-	explode "tiny explosion" 18
-	gun -30.5 -28.5 "Inhibitor Cannon"
-	gun -43 -12 "Plasma Repeater"
-	gun 30.5 -28.5 "Inhibitor Cannon"
-	gun 43 -12 "Plasma Repeater"
+			"hull damage" 600
+			"hit force" 1550
 	outfits
 		"Bullfrog Anti-Missile" 2
 		"Fission Reactor"
 		"Generator (Furnace Class)"
 		"Hai Corundum Regenerator"
+		"Hyperdrive"
 		"Inhibitor Cannon" 2
 		"Intrusion Countermeasures"
 		"Laser Rifle" 5
@@ -196,84 +187,85 @@ ship Bennu
 		"Thruster (Asteroid Class)"
 		`"Biroo" Atomic Steering`
 		`"Biroo" Atomic Thruster`
-		Hyperdrive
-	sprite ship/bennu
-	thumbnail thumbnail/bennu
+	engine -36 78
+	engine 36 78
+	gun -43 -12 "Plasma Repeater"
+	gun -30.5 -28.5 "Inhibitor Cannon"
+	gun 30.5 -28.5 "Inhibitor Cannon"
+	gun 43 -12 "Plasma Repeater"
 	turret -41.5 44 "Bullfrog Anti-Missile"
 	turret 41.5 44 "Bullfrog Anti-Missile"
-ship Bladewood
-	"final explode" "final explosion large"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
+ship 'Bladewood'
 	attributes
-		"fuel capacity" 700
-		"heat dissipation" .4
-		drag 16
+		shields 16900
 		hull 24700
 		mass 940
-		shields 16900
+		drag 16
+		"heat dissipation" .4
+		"fuel capacity" 700
 		weapon
 			"blast radius" 250
 			"shield damage" 3600
 			"hull damage" 1800
 			"hit force" 5400
 	engine 0 0
-	engine 0 0
 	engine 0 0 2.2
+	engine 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
+	fighter 0 0
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 10
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-ship Bulwark
 	"final explode" "final explosion large"
+ship 'Bulwark'
+	sprite "ship/bulwark"
+	thumbnail "thumbnail/bulwark"
 	attributes
-		"cargo space" 30
-		"engine capacity" 110
-		"fuel capacity" 500
-		"heat dissipation" .5
-		"outfit space" 690
-		"required crew" 33
-		"weapon capacity" 230
-		bunks 67
 		category "Heavy Warship"
 		cost 7300000
-		drag 11.6
-		hull 7100
-		mass 560
 		shields 10700
+		hull 7100
+		"required crew" 33
+		bunks 67
+		mass 560
+		drag 11.6
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 690
+		"weapon capacity" 230
+		"engine capacity" 110
 		weapon
 			"blast radius" 190
-			"hit force" 2600
-			"hull damage" 850
 			"shield damage" 1700
-	description `The Bulwark is the ship designed to transcend the classic Protector model that was made famous by Stars and Starships Magazine so long ago. The Bulwark surpasses the Protector not in elegance, but sheer firepower and ability to take a heavy beating. Many syndicate employees have voiced their concern and regret for continuing the legacy of the notorious Protector, however many of these employees have since been unable to comment further on the matter.`
-	description `Rumors have spread of a stolen prototype raiding the star systems bordering the core, merchants have reported sightings of said prototype seemingly appearing from empty space before turning its weapons on nearby vessels.`
-	engine -11 122 .8
-	engine -34 99
-	engine 11 122
-	engine 34 99 .8
-	explode "large explosion" 10
-	explode "medium explosion" 24
-	explode "small explosion" 38
-	explode "tiny explosion" 20
+			"hull damage" 850
+			"hit force" 2600
 	outfits
 		"Armageddon Core"
 		"D67-TM Shield Generator"
 		"D94-YV Shield Generator"
 		"Heavy Anti-Missile Turret"
+		"Hyperdrive"
 		"Impala Plasma Thruster"
 		"Liquid Nitrogen Cooler"
 		"LP072a Battery Pack"
@@ -281,60 +273,56 @@ ship Bulwark
 		"Quad Blaster Turret" 7
 		"X1200 Ion Steering"
 		"X3200 Ion Steering"
-		Hyperdrive
-	sprite ship/bulwark
-	thumbnail thumbnail/bulwark
+	engine -34 99
+	engine -11 122 .8
+	engine 11 122 .8
+	engine 34 99
+	turret -64 -4 "Quad Blaster Turret"
 	turret -46 -62 "Quad Blaster Turret"
 	turret -46 54 "Quad Blaster Turret"
-	turret -64 -4 "Quad Blaster Turret"
 	turret 0 -15 "Quad Blaster Turret"
 	turret 0 15 "Heavy Anti-Missile Turret"
-	turret 46 -62 "Quad Blaster Turret"
 	turret 46 54 "Quad Blaster Turret"
+	turret 46 -62 "Quad Blaster Turret"
 	turret 64 -4 "Quad Blaster Turret"
-ship Hobby
-	"final explode" "final explosion large" 1
+	explode "tiny explosion" 20
+	explode "small explosion" 38
+	explode "medium explosion" 24
+	explode "large explosion" 10
+	"final explode" "final explosion large"
+	description `The Bulwark is the ship designed to transcend the classic Protector model that was made famous by Stars and Starships Magazine so long ago. The Bulwark surpasses the Protector not in elegance, but sheer firepower and ability to take a heavy beating. Many syndicate employees have voiced their concern and regret for continuing the legacy of the notorious Protector, however many of these employees have since been unable to comment further on the matter.`
+	description `Rumors have spread of a stolen prototype raiding the star systems bordering the core, merchants have reported sightings of said prototype seemingly appearing from empty space before turning its weapons on nearby vessels.`
+ship 'Hobby'
+	sprite "ship/hobby"
+	thumbnail "thumbnail/hobby"
 	attributes
-		"cargo space" 52
-		"engine capacity" 158
-		"fuel capacity" 700
-		"heat dissipation" 0.7
-		"hull energy" 0.9
-		"hull repair rate" 1.1
-		"outfit scan power" 22
-		"outfit scan speed" 1
-		"outfit space" 622
-		"required crew" 36
-		"shield energy" 3.2
-		"shield generation" 3.6
-		"tactical scan power" 46
-		"weapon capacity" 178
-		bunks 66
 		category "Heavy Warship"
 		cost 16800000
-		drag 8.2
-		hull 13900
-		mass 540
-		ramscoop 2
 		shields 29400
+		hull 13900
+		"required crew" 36
+		bunks 66
+		"cargo space" 52
+		mass 540
+		drag 8.2
+		"heat dissipation" 0.7
+		"fuel capacity" 700
+		ramscoop 2
+		"outfit space" 622
+		"weapon capacity" 178
+		"engine capacity" 158
+		"shield generation" 3.6
+		"shield energy" 3.2
+		"hull repair rate" 1.1
+		"hull energy" 0.9
+		"outfit scan power" 22
+		"outfit scan speed" 1
+		"tactical scan power" 46
 		weapon
 			"blast radius" 390
 			"shield damage" 4200
 			"hull damage" 1200
 			"hit force" 4800
-	description `Not actually a standalone ship design, the 'Hobby' is the name given to a certain modification of the Albatross. Literally an Albatross with its wings removed off the base model, this popular modification also is usually paired with a modification to the core internals, focused on engine tuning. Despite the focus on engines, the 'Hobby' modification can keep the majority of its arsenal even after the heavy modifications to the stock hull.`
-	engine -18 170
-	engine 0 177 1.4
-	engine 18 170
-	explode "huge explosion" 5
-	explode "large explosion" 45
-	explode "medium explosion" 70
-	explode "small explosion" 25
-	gun -12 -150 "Inhibitor Cannon"
-	gun -8 -163 "EMP Torpedo Bay"
-	gun 0 -176 "Inhibitor Cannon"
-	gun 12 -150 "Inhibitor Cannon"
-	gun 8 -163 "EMP Torpedo Bay"
 	outfits
 		"Aeon Cell"
 		"Crucible-Class Thruster"
@@ -342,97 +330,100 @@ ship Hobby
 		"EMP Torpedo Bay" 2
 		"EMP Torpedo" 18
 		"Epoch Cell"
+		"Hyperdrive"
 		"Inhibitor Cannon" 3
 		"Point Defense Turret"
 		"Quantum Key Stone"
 		"Smelter-Class Steering"
 		"Smelter-Class Thruster"
 		"Thermoelectric Cooler" 3
-		Hyperdrive
-	sprite ship/hobby
-	thumbnail thumbnail/hobby
+	engine -18 170
+	engine 0 177 1.4
+	engine 18 170
+	gun -12 -150 "Inhibitor Cannon"
+	gun -8 -163 "EMP Torpedo Bay"
+	gun 0 -176 "Inhibitor Cannon"
+	gun 8 -163 "EMP Torpedo Bay"
+	gun 12 -150 "Inhibitor Cannon"
 	turret -17 -37
 	turret 0 58 "Point Defense Turret"
 	turret 17 -37
-ship Hornet
+	explode "small explosion" 25
+	explode "medium explosion" 70
+	explode "large explosion" 45
+	explode "huge explosion" 5
+	"final explode" "final explosion large" 1
+	description `Not actually a standalone ship design, the 'Hobby' is the name given to a certain modification of the Albatross. Literally an Albatross with its wings removed off the base model, this popular modification also is usually paired with a modification to the core internals, focused on engine tuning. Despite the focus on engines, the 'Hobby' modification can keep the majority of its arsenal even after the heavy modifications to the stock hull.`
+ship 'Hornet'
+	sprite "ship/hornet"
+	thumbnail "thumbnail/hornet"
 	attributes
-		"cargo space" 20
-		"engine capacity" 80
-		"fuel capacity" 500
-		"heat dissipation" .7
-		"outfit space" 190
-		"required crew" 2
-		"weapon capacity" 34
-		bunks 5
-		category Interceptor
+		category "Interceptor"
 		cost 690000
-		drag 1.4
-		hull 900
-		mass 90
 		shields 2600
+		hull 900
+		"required crew" 2
+		bunks 5
+		"cargo space" 20
+		mass 90
+		drag 1.4
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"outfit space" 190
+		"weapon capacity" 34
+		"engine capacity" 80
 		weapon
 			"blast radius" 30
-			"hit force" 410
-			"hull damage" 190
 			"shield damage" 260
-	description `The Hornet is an interceptor that weighs in above its predecessor the Wasp, designed by Syndicated Shipyards to serve as a more reliable successor. It improves where the Wasp fails by a very thin margin, many consider the Hornet to be a needless product as it offers little improvement over almost a doubly high price.`
-	engine -15 14 .5
-	engine 0 41 .5
-	engine 15 14 .5
-	explode "small explosion" 14
-	explode "tiny explosion" 22
-	gun -4 -41 "Sidewinder Missile Launcher"
-	gun 4 -41 "Sidewinder Missile Launcher"
+			"hull damage" 190
+			"hit force" 410
 	outfits
 		"Cargo Expansion"
 		"D23-QP Shield Generator"
+		"Hyperdrive"
 		"LP072a Battery Pack"
 		"nGVF-BB Fuel Cell"
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 100
 		"X2200 Ion Steering"
 		"X2700 Ion Thruster"
-		Hyperdrive
-	sprite ship/hornet
-	thumbnail thumbnail/hornet
-ship Hydra
-	"final explode" "final explosion large"
+	engine -15 14 .5
+	engine 0 41 .5
+	engine 15 14 .5
+	gun -4 -41 "Sidewinder Missile Launcher"
+	gun 4 -41 "Sidewinder Missile Launcher"
+	explode "tiny explosion" 22
+	explode "small explosion" 14
+	description `The Hornet is an interceptor that weighs in above its predecessor the Wasp, designed by Syndicated Shipyards to serve as a more reliable successor. It improves where the Wasp fails by a very thin margin, many consider the Hornet to be a needless product as it offers little improvement over almost a doubly high price.`
+ship 'Hydra'
+	sprite "ship/hydra"
+	thumbnail "thumbnail/hydra"
 	attributes
-		"cargo space" 35
-		"engine capacity" 160
-		"fuel capacity" 500
-		"heat dissipation" .4
-		"outfit space" 715
-		"required crew" 53
-		"weapon capacity" 270
-		bunks 74
 		category "Heavy Warship"
 		cost 11497000
-		drag 8.9
-		hull 6200
-		mass 640
 		shields 16800
+		hull 6200
+		"cargo space" 35
+		"required crew" 53
+		bunks 74
+		mass 640
+		drag 8.9
+		"heat dissipation" .4
+		"fuel capacity" 500
+		"outfit space" 715
+		"weapon capacity" 270
+		"engine capacity" 160
 		weapon
 			"blast radius" 90
-			"hit force" 1300
-			"hull damage" 500
 			"shield damage" 900
-	engine -32 166
-	engine 0 175
-	engine 32 166
-	explode "large explosion" 8
-	explode "medium explosion" 24
-	explode "small explosion" 36
-	explode "tiny explosion" 18
-	gun -50 -24 "Typhoon Launcher"
-	gun -63 3 "Hai Tracker Pod"
-	gun 50 -24 "Typhoon Launcher"
-	gun 63 3 "Hai Tracker Pod"
+			"hull damage" 500
+			"hit force" 1300
 	outfits
 		"Fusion Reactor"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 140
 		"Heavy Anti-Missile Turret" 2
+		"Hyperdrive"
 		"Intrusion Countermeasures"
 		"Large Heat Shunt"
 		"Laser Rifle" 21
@@ -447,14 +438,23 @@ ship Hydra
 		"Typhoon Launcher" 2
 		"Typhoon Storage Tube" 11
 		"Typhoon Torpedo" 225
-		Hyperdrive
-	sprite ship/hydra
-	thumbnail thumbnail/hydra
-	turret -18.5 -14 "Pulse Turret"
+	engine -32 166
+	engine 0 175
+	engine 32 166
+	gun -63 3 "Hai Tracker Pod"
+	gun -50 -24 "Typhoon Launcher"
+	gun 50 -24 "Typhoon Launcher"
+	gun 63 3 "Hai Tracker Pod"
 	turret -62.5 99.5 "Heavy Anti-Missile Turret"
+	turret -18.5 -14 "Pulse Turret"
 	turret 18.5 -14 "Pulse Turret"
 	turret 62.5 99.5 "Heavy Anti-Missile Turret"
-ship Leviathan leviathan_plasma_repeater
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+ship "Leviathan" 'leviathan plasma repeater'
 	outfits
 		"A375 Atomic Steering"
 		"Afterburner"
@@ -476,83 +476,83 @@ ship Leviathan leviathan_plasma_repeater
 	turret
 	turret "Heavy Anti-Missile Turret"
 	turret "Heavy Anti-Missile Turret"
-ship Sarkic
+ship 'Sarkic'
+	noun `entity`
+	sprite "ship/sarkic"
 	"never disabled"
 	attributes
-		"energy capacity" 1
-		"hull repair rate" 24
-		"required crew" 1
-		"reverse thrust" 80
-		bunks 1
-		category Fighter
-		cloak .06
+		category "Fighter"
 		cost 100000000
-		drag 6
 		hull 940000
-		inscrutable 1
+		"required crew" 1
+		bunks 1
 		mass 400
-		thrust 80
+		drag 6
+		"energy capacity" 1
+		inscrutable 1
+		"hull repair rate" 24
+		cloak .06
 		turn 1800
-	description `The enigmatic Drak possess bio-mechanical vessels capable of maintaining order throughout the galaxy. No one knows just how many Drak vessels are out amongst the stars, nor do they understand the connection between the fabled Archons and the lesser known Sarkics.`
-	explode "small explosion" 10
-	explode "tiny explosion" 16
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	gun 0 -27 Mouthparts?
-	noun entity
+		thrust 80
+		"reverse thrust" 80
 	outfits
-		Mouthparts? 24
-	sprite ship/sarkic
-ship Scud
+		"Mouthparts?" 24
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	gun 0 -27 Mouthparts?
+	explode "tiny explosion" 16
+	explode "small explosion" 10
+	description `The enigmatic Drak possess bio-mechanical vessels capable of maintaining order throughout the galaxy. No one knows just how many Drak vessels are out amongst the stars, nor do they understand the connection between the fabled Archons and the lesser known Sarkics.`
+ship 'Scud'
+	sprite "ship/scud"
+	thumbnail "thumbnail/scud"
 	attributes
-		"engine capacity" 17
+		category "Drone"
+		licenses
+			"Wanderer"
+		cost 980000
+		hull 3900
+		automaton 1
+		mass 41
+		drag .6
 		"heat dissipation" .7
 		"outfit space" 61
 		"weapon capacity" 29
-		automaton 1
-		category Drone
-		cost 980000
-		drag .6
-		hull 3900
-		licenses
-			Wanderer
-		mass 41
+		"engine capacity" 17
 		weapon
 			"blast radius" 10
-			"hit force" 250
-			"hull damage" 150
 			"shield damage" 100
-	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`
-	engine -9 28
-	engine 9 28
-	explode "tiny explosion" 30
-	explode "small explosion" 20
+			"hull damage" 150
+			"hit force" 250
 	outfits
 		"Small Biochemical Cell"
 		"Thunderhead Launcher"
 		"Thunderhead Missile" 40
 		"Type 0 Radiant Engine"
+	engine -9 28
+	engine 9 28
 	gun 0 -36 "Thunderhead Launcher"
-	sprite ship/scud
-	thumbnail thumbnail/scud
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`

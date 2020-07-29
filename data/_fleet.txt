@@ -1,15 +1,16 @@
 fleet "Wanderer Flycatchers"
 	add variant
-		Scud 2
+		"Scud" 2
 	add variant
-		Scud 3
+		"Scud" 3
 	add variant
-		Scud 4
+		"Scud" 4
 	add variant
-		Scud 5
-fleet archon
+		"Scud" 5
+fleet 'archon'
 	government "Unknown "
-	personality heroic
+	personality
+		heroic
 	variant
-		Archon
-		Sarkic 6
+		"Archon"
+		"Sarkic" 6

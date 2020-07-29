@@ -1,9 +1,3 @@
-event plasma_repeater_available
+event "plasma repeater available"
 	outfitter "Kraz Advanced"
 		"Plasma Repeater"
-event remnant_colonisation_first_stages
-	planet "Far Monad"
-		spaceport `Recently Remnant colonies begun settling here as an outlet for the ever growing populations on their current worlds. Because of the close proximity to the Remnants primary threat, the Korath, they are taking every precaution necessary to ensure the safety of the colony.`
-	set remnant_colonisation_first_stages
-	system Lucina
-		government Remnant
