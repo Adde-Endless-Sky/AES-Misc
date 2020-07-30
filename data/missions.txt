@@ -2,7 +2,7 @@
 # DRAK INTERCEPT #
 ------------------
 
-mission 'drak guarding Prima'
+mission "drak guarding Prima"
 	invisible
 	landing
 	npc kill
@@ -56,7 +56,7 @@ mission 'drak guarding Prima'
 # WEAPONS TESTING #
 -------------------
 
-mission 'test plasma repeater 1'
+mission "test plasma repeater 1"
 	name `Weapon Testing`
 	description `When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test.`
 	landing
@@ -71,7 +71,7 @@ mission 'test plasma repeater 1'
 			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and I couldn't think of a more capable pilot to test it.`
 				accept
 
-mission 'test plasma repeater 2'
+mission "test plasma repeater 2"
 	name `Weapon Testing`
 	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
 	landing

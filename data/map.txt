@@ -2,7 +2,7 @@
 # UNINHABITED #
 ---------------
 
-system 'Celiatis'
+system "Celiatis"
 	pos -136 759
 	government "Uninhabited"
 	link "Mafari"
@@ -42,7 +42,7 @@ system 'Celiatis'
 		distance 2121
 		period 1893
 
-system 'Diespiter'
+system "Diespiter"
 	pos 332 210
 	government "Uninhabited"
 	haze "_menu/haze-red"
@@ -78,7 +78,7 @@ system 'Diespiter'
 			distance 270
 			period 14
 
-system 'Egeria'
+system "Egeria"
 	pos 288 146
 	government "Uninhabited"
 	haze "_menu/haze-red"
@@ -117,7 +117,7 @@ system 'Egeria'
 		distance 2313
 		period 389
 
-system 'Felii'
+system "Felii"
 	pos -209 817
 	government "Uninhabited"
 	link "Gerusti"
@@ -154,7 +154,7 @@ system 'Felii'
 			distance 246
 			period 16
 
-system 'Gerusti'
+system "Gerusti"
 	pos -241 754
 	government "Uninhabited"
 	link "Felii"
@@ -197,7 +197,7 @@ system 'Gerusti'
 			distance 207
 			period 15
 
-system 'Mafari'
+system "Mafari"
 	pos -172 723
 	government "Uninhabited"
 	link "Celiatis"
@@ -242,7 +242,7 @@ system 'Mafari'
 		distance 2066
 		period 907
 
-system 'Marati'
+system "Marati"
 	pos -106 572
 	government "Uninhabited"
 	link "Ottava"
@@ -289,7 +289,7 @@ system 'Marati'
 			distance 182
 			period 14
 
-system 'Ottava'
+system "Ottava"
 	pos -76 525
 	government "Uninhabited"
 	link "Marati"
@@ -333,7 +333,7 @@ system 'Ottava'
 		distance 3083
 		period 2053
 
-system 'Paritixi'
+system "Paritixi"
 	pos -137 698
 	government "Uninhabited"
 	link "Prima"
@@ -363,7 +363,7 @@ system 'Paritixi'
 		distance 1356
 		period 1116
 
-system 'Perima'
+system "Perima"
 	pos -254 634
 	government "Uninhabited"
 	link "Prima"
@@ -405,7 +405,7 @@ system 'Perima'
 		distance 3722
 		period 3633
 
-system 'Postverta'
+system "Postverta"
 	pos 297 269
 	government "Uninhabited"
 	haze "_menu/haze-red"
@@ -436,7 +436,7 @@ system 'Postverta'
 		distance 1208
 		period 654
 
-system 'Prima'
+system "Prima"
 	pos -176 666
 	government "Uninhabited"
 	link "Mafari"
@@ -483,7 +483,7 @@ system 'Prima'
 		distance 2516
 		period 1043
 
-system 'Prosa'
+system "Prosa"
 	pos 303 194
 	government "Uninhabited"
 	haze "_menu/haze-red"
@@ -529,7 +529,7 @@ system 'Prosa'
 		distance 2313
 		period 389
 
-system 'Raliesa'
+system "Raliesa"
 	pos -229 681
 	government "Uninhabited"
 	link "Mafari"
@@ -579,7 +579,7 @@ system 'Raliesa'
 			distance 378
 			period 24
 
-system 'Remia'
+system "Remia"
 	pos -134 619
 	government "Uninhabited"
 	link "Marati"
@@ -623,7 +623,7 @@ system 'Remia'
 			distance 689
 			period 47
 
-system 'Resetus'
+system "Resetus"
 	pos -176 568
 	government "Uninhabited"
 	link "Marati"
@@ -672,7 +672,7 @@ system 'Resetus'
 			distance 233
 			period 13
 
-system 'Statina'
+system "Statina"
 	pos 385 198
 	government "Uninhabited"
 	haze "_menu/haze-red"
@@ -713,7 +713,7 @@ system 'Statina'
 		distance 2754
 		period 389
 
-system 'Vaticanus'
+system "Vaticanus"
 	pos 324 112
 	government "Uninhabited"
 	haze "_menu/haze-red"
@@ -817,56 +817,56 @@ system "Omnis"
 # PLANETS AES-OMNIS #
 ---------------------
 
-planet 'Adel'
+planet "Adel"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "adel"
 
-planet 'Aesalon'
+planet "Aesalon"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "aesalon"
 
-planet 'Bennu'
+planet "Bennu"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "bennu"
 
-planet 'Bulwark'
+planet "Bulwark"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "bulwark"
 
-planet 'Hobby'
+planet "Hobby"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "hobby"
 
-planet 'Hornet'
+planet "Hornet"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "hornet"
 
-planet 'Hydra'
+planet "Hydra"
 	bribe 0
 	government "Unknown "
 	tribute 1
 		threshold 0
 		fleet "hydra"
 
-planet 'Paltry Freighter'
+planet "Paltry Freighter"
 	bribe 0
 	government "Unknown "
 	tribute 1
@@ -884,14 +884,14 @@ planet "Haven"
 # WORMHOLES #
 -------------
 
-planet 'barren wormhole'
+planet "barren wormhole"
 	description ``
 
-planet 'barren wormhole 2'
+planet "barren wormhole 2"
 	description ``
 
-planet 'barren wormhole 3'
+planet "barren wormhole 3"
 	description ``
 
-planet 'link wormhole'
+planet "link wormhole"
 	description ``

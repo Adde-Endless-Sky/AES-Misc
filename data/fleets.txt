@@ -2,56 +2,56 @@
 # FLEETS AES-OMNIS #
 --------------------
 
-fleet 'adel'
+fleet "adel"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Adel"
 
-fleet 'aesalon'
+fleet "aesalon"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Aesalon"
 
-fleet 'bennu'
+fleet "bennu"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Bennu"
 
-fleet 'bulwark'
+fleet "bulwark"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Bulwark"
 
-fleet 'hobby'
+fleet "hobby"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Hobby"
 
-fleet 'hornet'
+fleet "hornet"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Hornet"
 
-fleet 'hydra'
+fleet "hydra"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"Hydra"
 
-fleet 'paltry freighter'
+fleet "paltry freighter"
 	government "Unknown "
 	personality
 		heroic

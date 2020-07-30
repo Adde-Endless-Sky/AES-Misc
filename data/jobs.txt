@@ -2,7 +2,7 @@
 # JOBS #
 --------
 
-mission 'syndicate target practice 4'
+mission "syndicate target practice 4"
 	name `Syndicate target practice`
 	description `Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>.`
 	job

@@ -2,7 +2,7 @@
 # LIGHT FREIGHTER #
 -------------------
 
-ship 'Paltry Freighter'
+ship "Paltry Freighter"
 	sprite "ship/paltry_freighter"
 	thumbnail "thumbnail/paltry_freighter"
 	attributes
@@ -54,7 +54,7 @@ ship 'Paltry Freighter'
 # INTERCEPTOR #
 ---------------
 
-ship 'Adel'
+ship "Adel"
 	sprite "ship/adel"
 	thumbnail "thumbnail/adel"
 	attributes
@@ -102,7 +102,7 @@ ship 'Adel'
 	description `While the Aphid is revered by the Hai as the perfect ship for beginner pilots, certain pirates roaming the outskirts of human space tend to disagree with its role as a freighter. What became very popular with pirates however is the potential that the Aphid offers, bolstered with three gun ports and additional alien plating strapped onto the hull brings this well within the realm of an interceptor.`
 	description `Apparently the pirates responsible manage to salvage quite a few Aphid hulls that allow them to pull off such a heinous design.`
 
-ship 'Hornet'
+ship "Hornet"
 	sprite "ship/hornet"
 	thumbnail "thumbnail/hornet"
 	attributes
@@ -148,7 +148,7 @@ ship 'Hornet'
 # MEDIUM WARSHIP #
 ------------------
 
-ship 'Bennu'
+ship "Bennu"
 	sprite "ship/bennu"
 	thumbnail "thumbnail/bennu"
 	attributes
@@ -207,7 +207,7 @@ ship 'Bennu'
 # HEAVY WARSHIP #
 -----------------
 
-ship 'Aesalon'
+ship "Aesalon"
 	sprite "ship/aesalon"
 	thumbnail "thumbnail/aesalon"
 	attributes
@@ -263,7 +263,7 @@ ship 'Aesalon'
 	"final explode" "final explosion medium"
 	description `The Aesalon is by no means an original design, built up from the Tarazed Falcon, however it is quite obvious that there was very many creative liberties taken with the modifications. Outclassing the original design in almost every way, it's obvious why such an extent of time and effort was exhausted in transforming the iconic design of the Falcon.`
 
-ship 'Bladewood'
+ship "Bladewood"
 	attributes
 		category "Heavy Warship"
 		shields 16900
@@ -301,7 +301,7 @@ ship 'Bladewood'
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 
-ship 'Bulwark'
+ship "Bulwark"
 	sprite "ship/bulwark"
 	thumbnail "thumbnail/bulwark"
 	attributes
@@ -357,7 +357,7 @@ ship 'Bulwark'
 	description `The Bulwark is the ship designed to transcend the classic Protector model that was made famous by Stars and Starships Magazine so long ago. The Bulwark surpasses the Protector not in elegance, but sheer firepower and ability to take a heavy beating. Many syndicate employees have voiced their concern and regret for continuing the legacy of the notorious Protector, however many of these employees have since been unable to comment further on the matter.`
 	description `Rumors have spread of a stolen prototype raiding the star systems bordering the core, merchants have reported sightings of said prototype seemingly appearing from empty space before turning its weapons on nearby vessels.`
 
-ship 'Hobby'
+ship "Hobby"
 	sprite "ship/hobby"
 	thumbnail "thumbnail/hobby"
 	attributes
@@ -420,7 +420,7 @@ ship 'Hobby'
 	"final explode" "final explosion large" 1
 	description `Not actually a standalone ship design, the 'Hobby' is the name given to a certain modification of the Albatross. Literally an Albatross with its wings removed off the base model, this popular modification also is usually paired with a modification to the core internals, focused on engine tuning. Despite the focus on engines, the 'Hobby' modification can keep the majority of its arsenal even after the heavy modifications to the stock hull.`
 
-ship 'Hydra'
+ship "Hydra"
 	sprite "ship/hydra"
 	thumbnail "thumbnail/hydra"
 	attributes
@@ -484,7 +484,7 @@ ship 'Hydra'
 # FIGHTER #
 -----------
 
-ship 'Sarkic'
+ship "Sarkic"
 	noun `entity`
 	sprite "ship/sarkic"
 	"never disabled"
@@ -537,7 +537,7 @@ ship 'Sarkic'
 # DRONE #
 ---------
 
-ship 'Scud'
+ship "Scud"
 	sprite "ship/scud"
 	thumbnail "thumbnail/scud"
 	attributes
@@ -894,7 +894,7 @@ ship "Starling" "Starling (Hunter)"
 # SALES #
 ---------
 
-shipyard 'Havenworks'
+shipyard "Havenworks"
 	"Marauder Firebird"
 	"Marauder Leviathan"
 	"Modified Argosy"
