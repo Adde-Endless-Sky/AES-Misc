@@ -3,56 +3,56 @@
 --------------------
 
 fleet "adel"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Adel"
 
 fleet "aesalon"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Aesalon"
 
 fleet "bennu"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Bennu"
 
 fleet "bulwark"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Bulwark"
 
 fleet "hobby"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Hobby"
 
 fleet "hornet"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Hornet"
 
 fleet "hydra"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"Hydra"
 
 fleet "paltry freighter"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
@@ -77,7 +77,7 @@ fleet "Wanderer Flycatchers"
 ----------------------
 
 fleet "archon"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
