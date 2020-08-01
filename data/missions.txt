@@ -56,10 +56,10 @@ mission "drak guarding Prima"
 # WEAPONS TESTING #
 -------------------
 
-mission "test plasma repeater 1"
+mission "Plasma Testing 2"
+	landing
 	name `Weapon Testing`
 	description `When you have time, report to <destination>, where Barmy Edward has another weapon he would like you to test.`
-	landing
 	to offer
 		"random" < 10
 		has "free worlds plot completed"
@@ -71,13 +71,13 @@ mission "test plasma repeater 1"
 			`A message arrives for you soon after you land. It's from Barmy Edward, the weapons engineer at Kraz Cybernetics. He writes: "Hello again, Captain! I've been working on a new weapon, and I couldn't think of a more capable pilot to test it.`
 				accept
 
-mission "test plasma repeater 2"
+mission "Plasma Testing 2B"
+	landing
 	name `Weapon Testing`
 	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
-	landing
 	to offer
 		has "free worlds plot completed"
-		has "test plasma repeater 1: done"
+		has "Plasma Testing 2: done"
 	source "Rust"
 	npc disable save
 		government "Test Dummy"
@@ -85,7 +85,7 @@ mission "test plasma repeater 2"
 			disables
 			heroic
 			staying
-		ship "leviathan plasma repeater" `Warlock`
+		ship "Leviathan (Plasma Repeater)" `Warlock`
 	on offer
 		conversation
 			`You received a message recently from an old friend, Barmy Edwards, asking you to stop by the Kraz Cybernetics facility to help test a new weapon. Do you want to visit them now?`
@@ -107,7 +107,7 @@ mission "test plasma repeater 2"
 	on complete
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
-			scene "outfit/plasma_repeater"
+			scene "scene/plasma_scene"
 			`You head to the hangar to meet up with Barmy Edward, and find him tinkering with a large gun much like an old Plasma Cannon, but somewhat different. Presumably, this is the weapon that you were just attacked with in orbit. "It runs alot hotter, you see," he says. "But the results are impressive."`
 			choice
 				`	"What was that?"`
@@ -123,7 +123,7 @@ mission "test plasma repeater 2"
 			`	"That is an interesting idea," you say. "Are they available for sale yet?"`
 			label available
 			`	"Well, I should have an initial model for sale in a month or so," he says. "I'll be interested to see what uses you or anyone else might find for them. Anyway, thanks for your help." You say goodbye and head back to your ship.`
-		event "plasma repeater available" 30
+		event "plasma repeater available" 55
 
 event "plasma repeater available"
 	outfitter "Kraz Advanced"

@@ -574,7 +574,7 @@ ship "Scud"
 # VARIANTS #
 ------------
 
-ship "Leviathan" 'leviathan plasma repeater'
+ship "Leviathan" "Leviathan (Plasma Repeater)"
 	outfits
 		"A375 Atomic Steering"
 		"Afterburner"
