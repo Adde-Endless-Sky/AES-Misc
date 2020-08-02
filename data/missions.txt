@@ -100,7 +100,8 @@ mission "FW Epilogue: Barmy"
 			`	He's shocked to discover your origins on New Boston, "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there, I was lucky to get out myself"`
 			`	"No way you're from New Boston too! What are the chances?" you hastily respond.`
 			`	He chuckles, "Small galaxy I suppose." You both have a great time hearing of each others early lives but you wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and you head back to your ship.`
-		event "plasma repeater available" 95
+		event "plasma repeater advanced" 95
+		event "plasma repeater basics" 155
 	on complete
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
@@ -129,8 +130,13 @@ mission "FW Epilogue: Barmy"
 			`	He's shocked to discover your origins on New Boston, "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there, I was lucky to get out myself"`
 			`	"No way you're from New Boston too! What are the chances?" you hastily respond.`
 			`	He chuckles, "Small galaxy I suppose." You both have a great time hearing of each others early lives but you wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and you head back to your ship.`
-		event "plasma repeater available" 45
+		event "plasma repeater advanced" 45
+		event "plasma repeater basics" 105
 
-event "plasma repeater available"
+event "plasma repeater advanced"
 	outfitter "Kraz Advanced"
+		"Plasma Repeater"
+
+event "plasma repeater basics"
+	outfitter "Kraz Basics"
 		"Plasma Repeater"
