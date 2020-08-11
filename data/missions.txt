@@ -7,10 +7,7 @@ mission "drak guarding Prima"
 	landing
 	npc kill
 		government Drak
-		personality
-			heroic
-			staying
-			vindictive
+		personality heroic staying vindictive
 		system "Prima"
 		ship "Archon" `Solemn Custodian`
 		ship "Sarkic" ???
@@ -61,16 +58,9 @@ mission "FW Epilogue: Barmy"
 	landing
 	name `Weapon Testing`
 	description `A test ship with new weaponry is in orbit around <planet>. Fight and disable it (but do not board or destroy it!) and then land to give Barmy Edward feedback on its performance.`
+	source "Rust"
 	to offer
 		has "free worlds plot completed"
-	source "Rust"
-	npc disable save
-		government "Test Dummy"
-		personality
-			disables
-			heroic
-			staying
-		ship "Leviathan (Plasma Repeater)" `Warlock`
 	on offer
 		conversation
 			`As you complete your landing procedure you recall having come here to assist in some testing for new weapons, new for the time at least. Do you want to check in on Barmy Edwards, the lead engineer?`
@@ -79,7 +69,7 @@ mission "FW Epilogue: Barmy"
 				`	(No.)`
 					defer
 			scene "scene/loc0"
-			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Mr <last>, it's been too long! How fortunate for me, I'm actually just putting on the finishing touches on a new prototype. You wouldn't be too busy to assist me in some practical testing would you?`
+			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Ah, <last>. It's been too long! How fortunate for me, I'm actually just putting the finishing touches on a new prototype. You wouldn't be too busy to assist me in some practical testing would you?`
 			`	"I'm not sure about this, what would you have me do?" you say.`
 			`	"Not much out of the ordinary from our tests in the past," he says. "You'll find a ship of ours in orbit that goes by 'Warlock', it has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its weapons."`
 			choice
@@ -100,8 +90,13 @@ mission "FW Epilogue: Barmy"
 			`	He's shocked to discover your origins on New Boston, "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there, I was lucky to get out myself"`
 			`	"No way you're from New Boston too! What are the chances?" you hastily respond.`
 			`	He chuckles, "Small galaxy I suppose." You both have a great time hearing of each others early lives but you wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and you head back to your ship.`
+				decline
 		event "plasma repeater advanced" 95
 		event "plasma repeater basics" 155
+	npc disable save
+		government "Test Dummy"
+		personality disables heroic staying
+		ship "Leviathan (Plasma Repeater)" `Warlock`
 	on complete
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
@@ -126,7 +121,7 @@ mission "FW Epilogue: Barmy"
 				`	"I have time, lets celebrate!"`
 				`	"I'll pass on that but it was good checking in on you."`
 					decline
-			`You follow Barmy into this bar he was telling you of, even with the smear of grease still on his face, he doesn't stick out from the crowd. You both stand at the bar and order your drinks, Barmys order catches you off guard and he notices your expression. "What? A man who works with his hands can't enjoy a drink with some age?" You chuckle and you both tell stories of your early lives, specifically before leaving the ground. He tells how he had some exciting adventures in his youth among the stars but found his passion tinkering and finding ways to improve on outdated equipment.`
+			`	You follow Barmy into this bar he was telling you of, even with the smear of grease still on his face, he doesn't stick out from the crowd. You both stand at the bar and order your drinks, Barmys order catches you off guard and he notices your expression. "What? A man who works with his hands can't enjoy a drink with some age?" You chuckle and you both tell stories of your early lives, specifically before leaving the ground. He tells how he had some exciting adventures in his youth among the stars but found his passion tinkering and finding ways to improve on outdated equipment.`
 			`	He's shocked to discover your origins on New Boston, "You're really from that backwater planet? I'm surprised you were able to escape the racket they have going on there, I was lucky to get out myself"`
 			`	"No way you're from New Boston too! What are the chances?" you hastily respond.`
 			`	He chuckles, "Small galaxy I suppose." You both have a great time hearing of each others early lives but you wrap up your visit after a long night of bouncing stories back and forth. You say your goodbyes and you head back to your ship.`
