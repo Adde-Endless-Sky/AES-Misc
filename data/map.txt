@@ -645,14 +645,5 @@ planet "Haven"
 # WORMHOLES #
 -------------
 
-planet "barren wormhole"
-	description ``
-
-planet "barren wormhole 2"
-	description ``
-
 planet "barren wormhole 3"
-	description ``
-
-planet "link wormhole"
 	description ``
