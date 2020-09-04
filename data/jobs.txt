@@ -1,6 +1,6 @@
---------
-# JOBS #
---------
+# --------
+#   JOBS
+# --------
 
 mission "syndicate target practice 4"
 	name `Syndicate target practice`

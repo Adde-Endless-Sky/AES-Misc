@@ -1,6 +1,6 @@
----------------
-# UNINHABITED #
----------------
+# ---------------
+#   UNINHABITED
+# ---------------
 
 system "Celiatis"
 	pos -136 759
@@ -520,9 +520,9 @@ system "Resetus"
 			distance 233
 			period 13
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 system "Caeculus"
 	add object "barren wormhole 2"
@@ -536,9 +536,9 @@ system "Lucina"
 		distance 2313
 		period 389
 
-----------------------
-# OVERRIDE AES-OMNIS #
-----------------------
+# ----------------------
+#   OVERRIDE AES-OMNIS
+# ----------------------
 
 system "Omnis"
 	add object "Paltry Freighter"
@@ -574,9 +574,9 @@ system "Omnis"
 		distance 6000
 		offset -6
 
----------------------
-# PLANETS AES-OMNIS #
----------------------
+# ---------------------
+#   PLANETS AES-OMNIS
+# ---------------------
 
 planet "Adel"
 	bribe 0
@@ -634,16 +634,16 @@ planet "Paltry Freighter"
 		threshold 0
 		fleet "paltry freighter"
 
---------------------
-# OVERRIDE PLANETS #
---------------------
+# --------------------
+#   OVERRIDE PLANETS
+# --------------------
 
 planet "Haven"
 	shipyard "Havenworks"
 
--------------
-# WORMHOLES #
--------------
+# -------------
+#   WORMHOLES
+# -------------
 
 planet "barren wormhole 3"
 	description ``

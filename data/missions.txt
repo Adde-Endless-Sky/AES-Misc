@@ -1,6 +1,6 @@
-------------------
-# DRAK INTERCEPT #
-------------------
+# ------------------
+#   DRAK INTERCEPT
+# ------------------
 
 mission "drak guarding Prima"
 	invisible
@@ -49,9 +49,9 @@ mission "drak guarding Prima"
 			`	"Be gone, quick." the voice says. The cancer within your head seems to fall away, and you are left talking to thin air, with no more than a hazy experience to carry with you. Perhaps it was a warning.`
 				decline
 
----------------
-# FW Epilogue #
----------------
+# ---------------
+#   FW Epilogue
+# ---------------
 
 mission "FW Epilogue: Barmy"
 	minor

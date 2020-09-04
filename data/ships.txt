@@ -1,6 +1,6 @@
--------------------
-# LIGHT FREIGHTER #
--------------------
+# -------------------
+#   LIGHT FREIGHTER
+# -------------------
 
 ship "Paltry Freighter"
 	sprite "ship/paltry_freighter"
@@ -50,9 +50,9 @@ ship "Paltry Freighter"
 	description `Often described as unoriginal or a deathtrap, comes the Paltry Freighter. It's often mocked for its usefulness, as many ships already exist to step in at that price range for merchant captains.`
 	description `The creativity behind this vessel is very limited, it was released long after the Bulk Freighter was and is very obviously the same frame but with many of its cargo pods removed to cut down on size and price.`
 
----------------
-# INTERCEPTOR #
----------------
+# ---------------
+#   INTERCEPTOR
+# ---------------
 
 ship "Adel"
 	sprite "ship/adel"
@@ -144,9 +144,9 @@ ship "Hornet"
 	explode "small explosion" 14
 	description `The Hornet is an interceptor that weighs in above its predecessor the Wasp, designed by Syndicated Shipyards to serve as a more reliable successor. It improves where the Wasp fails by a very thin margin, many consider the Hornet to be a needless product as it offers little improvement over almost a doubly high price.`
 
-------------------
-# MEDIUM WARSHIP #
-------------------
+# ------------------
+#   MEDIUM WARSHIP
+# ------------------
 
 ship "Bennu"
 	sprite "ship/bennu"
@@ -203,9 +203,9 @@ ship "Bennu"
 	"final explode" "final explosion medium"
 	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
 
------------------
-# HEAVY WARSHIP #
------------------
+# -----------------
+#   HEAVY WARSHIP
+# -----------------
 
 ship "Aesalon"
 	sprite "ship/aesalon"
@@ -480,9 +480,9 @@ ship "Hydra"
 	explode "large explosion" 8
 	"final explode" "final explosion large"
 
------------
-# FIGHTER #
------------
+# -----------
+#   FIGHTER
+# -----------
 
 ship "Sarkic"
 	noun `entity`
@@ -533,9 +533,9 @@ ship "Sarkic"
 	explode "small explosion" 10
 	description `The enigmatic Drak possess bio-mechanical vessels capable of maintaining order throughout the galaxy. No one knows just how many Drak vessels are out amongst the stars, nor do they understand the connection between the fabled Archons and the lesser known Sarkics.`
 
----------
-# DRONE #
----------
+# ---------
+#   DRONE
+# ---------
 
 ship "Scud"
 	sprite "ship/scud"
@@ -570,9 +570,9 @@ ship "Scud"
 	explode "small explosion" 20
 	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`
 
-------------
-# VARIANTS #
-------------
+# ------------
+#   VARIANTS
+# ------------
 
 ship "Leviathan" "Leviathan (Plasma Repeater)"
 	outfits
@@ -597,9 +597,9 @@ ship "Leviathan" "Leviathan (Plasma Repeater)"
 	turret "Heavy Anti-Missile Turret"
 	turret "Heavy Anti-Missile Turret"
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 ship "Lightning Bug"
 	attributes
@@ -890,18 +890,18 @@ ship "Starling" "Starling (Hunter)"
 		"Thrasher Turret"
 		"Tuning Rifle" 11
 
----------
-# SALES #
----------
+# ---------
+#   SALES
+# ---------
 
 shipyard "Havenworks"
 	"Marauder Firebird"
 	"Marauder Leviathan"
 	"Modified Argosy"
 
-----------------------------
-# OVERRIDE SALES AES-OMNIS #
-----------------------------
+# ----------------------------
+#   OVERRIDE SALES AES-OMNIS
+# ----------------------------
 
 shipyard "drak"
 	"Sarkic"

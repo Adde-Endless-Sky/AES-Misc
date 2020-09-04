@@ -1,6 +1,6 @@
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 government "Independent"
 	"penalty for"

@@ -1,6 +1,6 @@
---------
-# GUNS #
---------
+# --------
+#   GUNS
+# --------
 
 outfit "Dual Electron Beam"
 	category "Guns"
@@ -51,9 +51,9 @@ outfit "Plasma Repeater"
 	description `Decades after buying the rights for the Plasma Cannon, Kraz Cybernetics put this weapon on the shelves of every high-end outfitter of the southern rim. The Plasma Repeater was the golden egg of Kraz Cybernetics and its ticket for interstellar government funding.`
 	description `Derived from the original Plasma Cannon, this larger version trades off its larger bursts for a much faster rate of fire of less concentrated bursts. Although the smaller bursts of superheated plasma deal far less damage than its predecessor, it imparts more damage onto the enemy overall.`
 
------------
-# TURRETS #
------------
+# -----------
+#   TURRETS
+# -----------
 
 outfit "Chain Blaster Turret"
 	category "Turrets"
@@ -138,9 +138,9 @@ outfit "Quad Plasma Turret"
 	description `Clearly a terrifying child of Kraz Cybernetics, however running on the hotter side. The Quad Plasma Turret owes itself to the largest cooling systems on the market, the heat that just one of these turrets output is enough to put the user at a serious disadvantage if not prepared.`
 	description `Barmy Edwards himself strongly discourages relying on any more than a pair of these turrets per ship. While many pilots plainly refuse to operate one of these turrets aboard their ships because of the immense heat it generates, it is curiously popular with pilots traveling from deep within Syndicate space.`
 
------------
-# SYSTEMS #
------------
+# -----------
+#   SYSTEMS
+# -----------
 
 outfit "Deuterium Culture Tanks"
 	category "Systems"
@@ -201,9 +201,9 @@ outfit "Tool Rack"
 	"tool storage" 1
 	description `Those racks are designed to safely store, retrieve, and recharge various specialised tools.`
 
----------
-# POWER #
----------
+# ---------
+#   POWER
+# ---------
 
 outfit "Capacitor Rack"
 	category "Power"
@@ -222,9 +222,9 @@ outfit "Capacitors"
 	"capacitor slots" -1
 	description `This is a small capacitor, designed to be plugged in the Capacitor Rack.`
 
------------
-# ENGINES #
------------
+# -----------
+#   ENGINES
+# -----------
 
 outfit "Type 0 Radiant Engine"
 	category "Engines"
@@ -245,9 +245,9 @@ outfit "Type 0 Radiant Engine"
 	description `The construction of the new Scud drones prompted a need for an even smaller engine complement than was available at the time. This lead to the creation of the Type 0 Radiant Engine, the Wanderers first ever hybrid engines systems, capable of achieving speeds comparable to a set of Type 1 engines whilst remaining significantly smaller.`
 	description `This efficiency serves as a reminder to the Wanderers that their engineering has not stagnated, and that they are still capable of progressing their technology.`
 
-----------------
-# HAND TO HAND #
-----------------
+# ----------------
+#   HAND TO HAND
+# ----------------
 
 outfit "Flame Thrower"
 	category "Hand to Hand"
@@ -271,9 +271,9 @@ outfit "Knockout Gas"
 	unplunderable 1
 	description `Researchers from Lovelace Labs have found a way to weaponize the chemical compounds derived from psychoactive plants found on some of the more exotic planet ecosystems. Though not as powerful as nerve gas, knockout gas is non-fatal.`
 
------------
-# SPECIAL #
------------
+# -----------
+#   SPECIAL
+# -----------
 
 outfit "Regional Map"
 	category "Special"
@@ -292,9 +292,9 @@ outfit "Shipwright Gear"
 	"tool storage" -1
 	description `As luck has it, many people offering their services as ship crew are actually skilled in some engineering background, with the right provisions they could be put to work reinforcing the hull of a ship.`
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 outfit "Large Collector Module"
 	"ion resistance" .3
@@ -302,9 +302,9 @@ outfit "Large Collector Module"
 outfit "Small Collector Module"
 	"ion resistance" .1
 
-------------------
-# OVERRIDE SALES #
-------------------
+# ------------------
+#   OVERRIDE SALES
+# ------------------
 
 outfitter "Ammo North"
 	"Regional Map"
@@ -344,9 +344,9 @@ outfitter "Wanderer Advanced"
 outfitter "Wanderer Basics"
 	"Regional Map"
 
-----------------------------
-# OVERRIDE SALES AES-OMNIS #
-----------------------------
+# ----------------------------
+#   OVERRIDE SALES AES-OMNIS
+# ----------------------------
 
 outfitter "experimental"
 	"Deuterium Culture Tanks"

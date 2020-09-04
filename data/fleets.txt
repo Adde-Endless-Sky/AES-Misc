@@ -1,6 +1,6 @@
---------------------
-# FLEETS AES-OMNIS #
---------------------
+# --------------------
+#   FLEETS AES-OMNIS
+# --------------------
 
 fleet "adel"
 	government "arena"
@@ -58,9 +58,9 @@ fleet "paltry freighter"
 	variant
 		"Paltry Freighter"
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 fleet "Wanderer Flycatchers"
 	add variant
@@ -72,9 +72,9 @@ fleet "Wanderer Flycatchers"
 	add variant
 		"Scud" 5
 
-----------------------
-# OVERRIDE AES-OMNIS #
-----------------------
+# ----------------------
+#   OVERRIDE AES-OMNIS
+# ----------------------
 
 fleet "archon"
 	government "arena"
