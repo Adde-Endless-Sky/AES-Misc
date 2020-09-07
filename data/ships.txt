@@ -89,13 +89,13 @@ ship "Adel"
 		"Quantum Key Stone"
 		"S-270 Regenerator" 2
 		`"Benga" Atomic Thruster`
-	engine -20 50
 	engine -9 47
 	engine 9 47
+	engine -20 50
 	engine 20 50
 	gun -6 -49.3 "Beam Laser"
-	gun 0 -53 "Korath Fire-Lance"
 	gun 6 -49.3 "Beam Laser"
+	gun 0 -53 "Korath Fire-Lance"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 15
@@ -136,8 +136,8 @@ ship "Hornet"
 		"X2200 Ion Steering"
 		"X2700 Ion Thruster"
 	engine -15 14 .5
-	engine 0 41 .5
 	engine 15 14 .5
+	engine 0 41 .5
 	gun -4 -41 "Sidewinder Missile Launcher"
 	gun 4 -41 "Sidewinder Missile Launcher"
 	explode "tiny explosion" 22
@@ -190,9 +190,9 @@ ship "Bennu"
 		`"Biroo" Atomic Thruster`
 	engine -36 78
 	engine 36 78
-	gun -43 -12 "Plasma Repeater"
 	gun -30.5 -28.5 "Inhibitor Cannon"
 	gun 30.5 -28.5 "Inhibitor Cannon"
+	gun -43 -12 "Plasma Repeater"
 	gun 43 -12 "Plasma Repeater"
 	turret -41.5 44 "Bullfrog Anti-Missile"
 	turret 41.5 44 "Bullfrog Anti-Missile"
@@ -252,9 +252,9 @@ ship "Aesalon"
 	engine 19.5 173.5
 	gun -19.5 -108 "EMP Torpedo Bay"
 	gun 19.5 -108 "EMP Torpedo Bay"
-	turret -63 45.5 "Laser Turret"
-	turret 0 44.5 "Electron Turret"
 	turret 0 7.5 "Laser Turret"
+	turret 0 44.5 "Electron Turret"
+	turret -63 45.5 "Laser Turret"
 	turret 63 45.5 "Electron Turret"
 	explode "tiny explosion" 40
 	explode "small explosion" 55
@@ -338,17 +338,17 @@ ship "Bulwark"
 		"X1200 Ion Steering"
 		"X3200 Ion Steering"
 	engine -34 99
+	engine 34 99
 	engine -11 122 .8
 	engine 11 122 .8
-	engine 34 99
-	turret -64 -4 "Quad Blaster Turret"
 	turret -46 -62 "Quad Blaster Turret"
-	turret -46 54 "Quad Blaster Turret"
-	turret 0 -15 "Quad Blaster Turret"
-	turret 0 15 "Heavy Anti-Missile Turret"
-	turret 46 54 "Quad Blaster Turret"
 	turret 46 -62 "Quad Blaster Turret"
+	turret 0 -15 "Quad Blaster Turret"
+	turret -64 -4 "Quad Blaster Turret"
 	turret 64 -4 "Quad Blaster Turret"
+	turret 0 15 "Heavy Anti-Missile Turret"
+	turret -46 54 "Quad Blaster Turret"
+	turret 46 54 "Quad Blaster Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 38
 	explode "medium explosion" 24
@@ -403,16 +403,16 @@ ship "Hobby"
 		"Smelter-Class Thruster"
 		"Thermoelectric Cooler" 3
 	engine -18 170
-	engine 0 177 1.4
 	engine 18 170
-	gun -12 -150 "Inhibitor Cannon"
-	gun -8 -163 "EMP Torpedo Bay"
+	engine 0 177 1.4
 	gun 0 -176 "Inhibitor Cannon"
+	gun -8 -163 "EMP Torpedo Bay"
 	gun 8 -163 "EMP Torpedo Bay"
+	gun -12 -150 "Inhibitor Cannon"
 	gun 12 -150 "Inhibitor Cannon"
 	turret -17 -37
-	turret 0 58 "Point Defense Turret"
 	turret 17 -37
+	turret 0 58 "Point Defense Turret"
 	explode "small explosion" 25
 	explode "medium explosion" 70
 	explode "large explosion" 45
@@ -464,15 +464,15 @@ ship "Hydra"
 		"Typhoon Storage Tube" 11
 		"Typhoon Torpedo" 225
 	engine -32 166
-	engine 0 175
 	engine 32 166
-	gun -63 3 "Hai Tracker Pod"
+	engine 0 175
 	gun -50 -24 "Typhoon Launcher"
 	gun 50 -24 "Typhoon Launcher"
+	gun -63 3 "Hai Tracker Pod"
 	gun 63 3 "Hai Tracker Pod"
-	turret -62.5 99.5 "Heavy Anti-Missile Turret"
 	turret -18.5 -14 "Pulse Turret"
 	turret 18.5 -14 "Pulse Turret"
+	turret -62.5 99.5 "Heavy Anti-Missile Turret"
 	turret 62.5 99.5 "Heavy Anti-Missile Turret"
 	explode "tiny explosion" 18
 	explode "small explosion" 36
