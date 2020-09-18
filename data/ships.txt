@@ -615,25 +615,6 @@ ship "Star Queen"
 	attributes
 		"required crew" 25
 
-ship "Albatross" "Albatross (Heavy)"
-	outfits
-		"Aeon Cell"
-		"Crucible-Class Thruster"
-		"Crystal Capacitor" 2
-		"Epoch Cell"
-		"Forge-Class Steering"
-		"Forge-Class Thruster"
-		"Hyperdrive"
-		"Inhibitor Cannon" 3
-		"Millennium Cell"
-		"Outfits Expansion" 4
-		"Quantum Key Stone"
-		"Smelter-Class Steering"
-		"Thermoelectric Cooler" 2
-		"Thrasher Cannon" 4
-		"Thrasher Turret" 3
-		"Tuning Rifle" 65
-
 ship "Archon"
 	fighter -32 -7 under left
 	fighter -22 20 under left
@@ -875,20 +856,6 @@ ship "Frigate"
 		"Torpedo" 60
 		"X3200 Ion Steering"
 		"X3700 Ion Thruster"
-
-ship "Starling" "Starling (Hunter)"
-	outfits
-		"Crystal Capacitor"
-		"Emergency Ramscoop"
-		"Epoch Cell"
-		"Forge-Class Steering"
-		"Forge-Class Thruster"
-		"Hyperdrive"
-		"Inhibitor Cannon" 2
-		"Millennium Cell"
-		"Quantum Key Stone"
-		"Thrasher Turret"
-		"Tuning Rifle" 11
 
 # ---------
 #   SALES
