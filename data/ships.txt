@@ -263,44 +263,6 @@ ship "Aesalon"
 	"final explode" "final explosion medium"
 	description `The Aesalon is by no means an original design, built up from the Tarazed Falcon, however it is quite obvious that there was very many creative liberties taken with the modifications. Outclassing the original design in almost every way, it's obvious why such an extent of time and effort was exhausted in transforming the iconic design of the Falcon.`
 
-ship "Bladewood"
-	attributes
-		category "Heavy Warship"
-		shields 16900
-		hull 24700
-		mass 940
-		drag 16
-		"heat dissipation" .4
-		"fuel capacity" 700
-		weapon
-			"blast radius" 250
-			"shield damage" 3600
-			"hull damage" 1800
-			"hit force" 5400
-	engine 0 0
-	engine 0 0 2.2
-	engine 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	fighter 0 0
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
-
 ship "Bulwark"
 	sprite "ship/bulwark"
 	thumbnail "thumbnail/bulwark"
