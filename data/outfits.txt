@@ -161,17 +161,6 @@ outfit "Katabatic Scanner"
 	"tactical scan power" 38
 	description `The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe.`
 
-outfit "Small Ramscoop Module"
-	category "Systems"
-	licenses
-		"Coalition"
-	cost 96000
-	mass 6
-	"outfit space" -6
-	ramscoop 3.5
-	"energy consumption" 0.3
-	description `This ramscoop is extremely compact and is used to function as a back up in case a Coalition ship gets stranded in an empty system. However, it draws a small amount of energy.`
-
 outfit "Smugglers Fittings"
 	category "Systems"
 	cost 9000
