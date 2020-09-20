@@ -188,7 +188,7 @@ outfit "Tool Rack"
 	mass 3
 	"outfit space" -3
 	"tool storage" 1
-	description `Those racks are designed to safely store, retrieve, and recharge various specialised tools.`
+	description `These racks are designed to safely store, retrieve, and recharge various specialised tools.`
 
 # ---------
 #   POWER
