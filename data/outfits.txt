@@ -106,7 +106,7 @@ outfit "Ion Mortar"
 		"hull damage" 48
 		"ion damage" 6
 		"hit force" 120
-	description `A fearsome weapon despite it's age. The 'Ion Mortar' is no more than two classic Ion Cannons mounted onto a rotating turret base. It is because of this that the peaceful Hai often consider this to be a perversion of traditional engineering.`
+	description `A fearsome weapon despite its age. The 'Ion Mortar' is no more than two classic Ion Cannons mounted onto a rotating turret base. It is because of this that the peaceful Hai often consider this to be a perversion of traditional engineering.`
 
 outfit "Quad Plasma Turret"
 	category "Turrets"
