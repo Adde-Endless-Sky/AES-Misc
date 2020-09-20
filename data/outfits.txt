@@ -246,7 +246,7 @@ outfit "Flame Thrower"
 	"capture defense" 1.2
 	illegal 800000
 	unplunderable 1
-	description `Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millenia those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device.`
+	description `Ancient laws forbid such a weapon from being used in times of conflict, however that doesn't seem to stop any self respecting pirate from using them for personal gain. For nearly a millennium those laws have changed and evolved, allowing a severe fine if caught in possession of an incendiary device.`
 
 outfit "Knockout Gas"
 	plural `Gas Canisters`
