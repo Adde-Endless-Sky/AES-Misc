@@ -161,6 +161,16 @@ outfit "Katabatic Scanner"
 	"tactical scan power" 38
 	description `The Hai highly value life. This device allows them to determine the status of other ships, both friend and foe.`
 
+outfit "Single Room"
+	category "Systems"
+	cost 8000
+	thumbnail "outfit/single_bed"
+	"mass" 2
+	"bunks" 1
+	"outfit space" -8
+	"unplunderable" 1
+	description "Captains who do not care particularly much about the comfort of their passengers or crew usually find themselves looking towards bunk beds as the answer, which has become quite the joke among crew for hire. For a marginal increase in crew morale, captains can opt to fit their ship with beds that do not stack."
+
 outfit "Smugglers Fittings"
 	category "Systems"
 	cost 9000
@@ -297,11 +307,13 @@ outfit "Small Collector Module"
 
 outfitter "Ammo North"
 	"Regional Map"
+	"Single Room"
 	"Storage Lockers"
 	"Tool Rack"
 
 outfitter "Ammo South"
 	"Regional Map"
+	"Single Room"
 	"Shipwright Gear"
 	"Tool Rack"
 
@@ -356,6 +368,7 @@ outfitter "human"
 	"Plasma Repeater"
 	"Quad Plasma Turret"
 	"Shipwright Gear"
+	"Single Room"
 	"Smugglers Fittings"
 	"Storage Lockers"
 	"Tool Rack"
@@ -372,6 +385,7 @@ outfitter "plugin"
 	"Quad Plasma Turret"
 	"Regional Map"
 	"Shipwright Gear"
+	"Single Room"
 	"Smugglers Fittings"
 	"Storage Lockers"
 	"Tool Rack"
