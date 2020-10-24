@@ -434,14 +434,14 @@ ship "Bulwark"
 	engine 34 99
 	engine -11 122 .8
 	engine 11 122 .8
-	turret -46 -62 "Quad Blaster Turret"
-	turret 46 -62 "Quad Blaster Turret"
-	turret 0 -15 "Quad Blaster Turret"
-	turret -64 -4 "Quad Blaster Turret"
-	turret 64 -4 "Quad Blaster Turret"
-	turret 0 15 "Heavy Anti-Missile Turret"
-	turret -46 54 "Quad Blaster Turret"
-	turret 46 54 "Quad Blaster Turret"
+	turret -39 -51 "Quad Blaster Turret"
+	turret 39 -51 "Quad Blaster Turret"
+	turret 0 -10.5 "Heavy Anti-Missile Turret"
+	turret -65 1 "Quad Blaster Turret"
+	turret 65 1 "Quad Blaster Turret"
+	turret 0 19.5 "Quad Blaster Turret"
+	turret -39 52.5 "Quad Blaster Turret"
+	turret 39 52.5 "Quad Blaster Turret"
 	explode "tiny explosion" 20
 	explode "small explosion" 38
 	explode "medium explosion" 24
