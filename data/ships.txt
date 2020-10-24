@@ -130,6 +130,57 @@ ship "Behehehemoth"
 	explode "huge explosion" 25
 	"final explode" "final explosion large"
 
+ship "Proto Freighter"
+	sprite "ship/proto_freighter"
+	thumbnail "thumbnail/proto_freighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 4200000
+		"shields" 7400
+		"hull" 6200
+		"required crew" 19
+		"bunks" 27
+		"mass" 460
+		"drag" 11.1
+		"heat dissipation" .55
+		"fuel capacity" 600
+		"cargo space" 420
+		"outfit space" 370
+		"weapon capacity" 45
+		"engine capacity" 100
+		weapon
+			"blast radius" 120
+			"shield damage" 1700
+			"hull damage" 850
+			"hit force" 2600
+	outfits
+		"Cargo Expansion"
+		"D41-HY Shield Generator"
+		"Fuel Pod" 2
+		"Impala Plasma Thruster"
+		"Interference Plating" 2
+		"Large Radar Jammer"
+		"Laser Rifle" 6
+		"LP072a Battery Pack"
+		"RT-I Radiothermal"
+		"Scram Drive"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Small Radar Jammer" 2
+		"X3200 Ion Steering"
+		Ramscoop
+	engine -12.5 122
+	engine 12.5 122
+	gun -15 -100 "Sidewinder Missile Launcher"
+	gun 15 -100 "Sidewinder Missile Launcher"
+	leak "leak" 60 50
+	leak "flame" 20 80
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+
 # ---------------
 #   INTERCEPTOR
 # ---------------
@@ -918,6 +969,7 @@ shipyard "drak"
 shipyard "experimental"
 	"Behehehemoth"
 	"Hydra"
+	"Proto Freighter"
 
 shipyard "human"
 	"Adel"
@@ -928,9 +980,9 @@ shipyard "human"
 	"Hornet"
 	"Hydra"
 	"Paltry Freighter"
+	"Proto Freighter"
 
 shipyard "plugin"
-	"Paltry Freighter"
 	"Adel"
 	"Aesalon"
 	"Behehehemoth"
@@ -938,6 +990,8 @@ shipyard "plugin"
 	"Bulwark"
 	"Hobby"
 	"Hornet"
+	"Paltry Freighter"
+	"Proto Freighter"
 	"Sarkic"
 	"Scud"
 
