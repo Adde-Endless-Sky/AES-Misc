@@ -400,18 +400,18 @@ ship "Bulwark"
 	attributes
 		category "Heavy Warship"
 		cost 7300000
-		shields 10700
-		hull 7100
+		shields 11700
+		hull 7700
 		"required crew" 33
 		bunks 67
 		mass 560
-		drag 11.6
+		drag 10
 		"heat dissipation" .5
 		"fuel capacity" 500
 		"cargo space" 30
 		"outfit space" 690
-		"weapon capacity" 230
-		"engine capacity" 110
+		"weapon capacity" 260
+		"engine capacity" 140
 		weapon
 			"blast radius" 190
 			"shield damage" 1700
@@ -419,27 +419,27 @@ ship "Bulwark"
 			"hit force" 2600
 	outfits
 		"Armageddon Core"
-		"D67-TM Shield Generator"
+		"Chain Blaster Turret"
+		"D41-HY Shield Generator"
 		"D94-YV Shield Generator"
-		"Heavy Anti-Missile Turret"
-		"Hyperdrive"
+		"Heavy Anti-Missile Turret" 2
+		"Impala Plasma Steering"
 		"Impala Plasma Thruster"
 		"Liquid Nitrogen Cooler"
-		"LP072a Battery Pack"
 		"LP288a Battery Pack"
-		"Quad Blaster Turret" 7
-		"X1200 Ion Steering"
-		"X3200 Ion Steering"
+		"Proton Turret" 3
+		"Quad Blaster Turret" 2
+		Hyperdrive
 	engine -34 99
 	engine 34 99
 	engine -11 122 .8
 	engine 11 122 .8
-	turret -39 -51 "Quad Blaster Turret"
-	turret 39 -51 "Quad Blaster Turret"
-	turret 0 -10.5 "Heavy Anti-Missile Turret"
-	turret -65 1 "Quad Blaster Turret"
-	turret 65 1 "Quad Blaster Turret"
-	turret 0 19.5 "Quad Blaster Turret"
+	turret -39 -51 "Proton Turret"
+	turret 39 -51 "Proton Turret"
+	turret 0 -10.5 "Chain Blaster Turret"
+	turret -65 1 "Heavy Anti-Missile Turret"
+	turret 65 1 "Heavy Anti-Missile Turret"
+	turret 0 19.5 "Proton Turret"
 	turret -39 52.5 "Quad Blaster Turret"
 	turret 39 52.5 "Quad Blaster Turret"
 	explode "tiny explosion" 20
