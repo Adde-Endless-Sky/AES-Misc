@@ -50,6 +50,86 @@ ship "Paltry Freighter"
 	description `Often described as unoriginal or a deathtrap, comes the Paltry Freighter. It's often mocked for its usefulness, as many ships already exist to step in at that price range for merchant captains.`
 	description `The creativity behind this vessel is very limited, it was released long after the Bulk Freighter was and is very obviously the same frame but with many of its cargo pods removed to cut down on size and price.`
 
+# -------------------
+#   HEAVY FREIGHTER
+# -------------------
+
+ship "Behehehemoth"
+	sprite "ship/behehehemoth"
+	thumbnail "thumbnail/behehehemoth"
+	attributes
+		category "Heavy Freighter"
+		"cost" 15900000
+		"shields" 9400
+		"hull" 8100
+		"required crew" 17
+		"bunks" 42
+		"mass" 800
+		"drag" 12.1
+		"heat dissipation" .3
+		"fuel capacity" 900
+		"cargo space" 1130
+		"outfit space" 940
+		"weapon capacity" 380
+		"engine capacity" 110
+		weapon
+			"blast radius" 160
+			"shield damage" 1500
+			"hull damage" 750
+			"hit force" 2300
+	outfits
+		"A370 Atomic Thruster"
+		"Anti-Missile Turret" 4
+		"Breeder Reactor"
+		"Cargo Expansion" 3
+		"Catalytic Ramscoop"
+		"D41-HY Shield Generator"
+		"D94-YV Shield Generator"
+		"Fuel Pod" 4
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 2
+		"Impala Plasma Steering"
+		"Large Radar Jammer" 2
+		"Laser Rifle" 12
+		"LP288a Battery Pack"
+		"Proton Turret" 4
+		"Scram Drive"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Water Coolant System"
+		"X1200 Ion Steering"
+		Ramscoop 2
+	engine -33.5 223.5 .6
+	engine -31.5 223.5 .8
+	engine 31.5 223.5 .8
+	engine 33.5 223.5 .6
+	engine -55.5 229 .6
+	engine 55.5 229 .6
+	gun -21.5 -160.5
+	gun 21.5 -160.5
+	turret -31 -126 "Proton Turret"
+	turret 31 -126 "Proton Turret"
+	turret -46.5 -45 "Anti-Missile Turret"
+	turret 46.5 -45 "Anti-Missile Turret"
+	turret -46.5 35.5 "Heavy Laser Turret"
+	turret 46.5 35.5 "Heavy Laser Turret"
+	turret -46.5 116.5 "Proton Turret"
+	turret 46.5 116.5 "Proton Turret"
+	turret -22 -13 "Heavy Anti-Missile Turret"
+	turret 22 -13 "Heavy Anti-Missile Turret"
+	turret -22 68
+	turret 22 68
+	turret -22 149 "Anti-Missile Turret"
+	turret 22 149 "Anti-Missile Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 20
+	explode "medium explosion" 30
+	explode "large explosion" 45
+	explode "huge explosion" 25
+	"final explode" "final explosion large"
+
 # ---------------
 #   INTERCEPTOR
 # ---------------
@@ -836,11 +916,13 @@ shipyard "drak"
 	"Sarkic"
 
 shipyard "experimental"
+	"Behehehemoth"
 	"Hydra"
 
 shipyard "human"
 	"Adel"
 	"Aesalon"
+	"Behehehemoth"
 	"Bennu"
 	"Bulwark"
 	"Hornet"
@@ -851,6 +933,7 @@ shipyard "plugin"
 	"Paltry Freighter"
 	"Adel"
 	"Aesalon"
+	"Behehehemoth"
 	"Bennu"
 	"Bulwark"
 	"Hobby"
