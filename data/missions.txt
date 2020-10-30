@@ -71,12 +71,12 @@ mission "FW Epilogue: Barmy"
 			scene "scene/loc0"
 			`	You give your name to the receptionist, and she directs you to the hangar where the weapons group does their design and prototyping. Barmy Edward shakes your hand warmly and says, "Ah, <last>. It's been too long! How fortunate for me, I'm actually just putting the finishing touches on a new prototype. You wouldn't be too busy to assist me in some practical testing would you?`
 			`	"I'm not sure about this, what would you have me do?" you say.`
-			`	"Not much out of the ordinary from our tests in the past," he says. "You'll find a ship of ours in orbit that goes by 'Warlock', it has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its weapons."`
+			`	"Not much out of the ordinary from our tests in the past," he says. "You'll find a ship of ours in orbit that goes by 'Hunk', it has been fitted with a few of these new weapons. Your job will be to fight it and disable it, then tell us what you think of its combat capabilities and transfer your ships logs so we can analyze the fight."`
 			choice
 				`	"Alright, I suppose for old times sake I can help out."`
 				`	"Sorry, I just wanted to check in and see how you were doing."`
 					goto catchup
-			`	He turns to you and says with a smirk, "Now mind you, we just want you to disable the Warlock, not destroy it. We've recommissioned it from retirement, so it's not top of the line but all the same I want to be able to keep using it for future tests. Understood?"`
+			`	He turns to you and says with a smirk, "Now mind you, we just want you to disable the ship, not destroy it. We've recommissioned it from retirement, so it's not top of the line but all the same I want to be able to keep using it for future tests. Understand?"`
 			`	"Great," he says, rubbing his hands together with a gleeful expression on his face. He's clearly looking forward to hearing what you think of his latest invention.`
 				accept
 			label catchup
@@ -96,7 +96,7 @@ mission "FW Epilogue: Barmy"
 	npc disable save
 		government "Test Dummy"
 		personality disables heroic staying
-		ship "Leviathan (Plasma Repeater)" `Warlock`
+		ship "Leviathan (Plasma Repeater)" `Hunk`
 	on complete
 		log `Assisted Barmy Edward with another weapon test: this time, an impressive upgrade to the plasma cannon, increased fire rate even at lower damage per hit comes out with better overall results.`
 		conversation
