@@ -963,15 +963,7 @@ shipyard "Havenworks"
 #   OVERRIDE SALES AES-OMNIS
 # ----------------------------
 
-shipyard "drak"
-	"Sarkic"
-
-shipyard "experimental"
-	"Behehehemoth"
-	"Hydra"
-	"Proto Freighter"
-
-shipyard "human"
+shipyard "human plugins"
 	"Adel"
 	"Aesalon"
 	"Behehehemoth"
@@ -982,21 +974,11 @@ shipyard "human"
 	"Paltry Freighter"
 	"Proto Freighter"
 
-shipyard "plugin"
-	"Adel"
-	"Aesalon"
-	"Behehehemoth"
-	"Bennu"
-	"Bulwark"
+shipyard "remnant plugins"
 	"Hobby"
-	"Hornet"
-	"Paltry Freighter"
-	"Proto Freighter"
+
+shipyard "wanderer plugins"
+	"Scud"
+
+shipyard "drak plugins"
 	"Sarkic"
-	"Scud"
-
-shipyard "remnant"
-	"Hobby"
-
-shipyard "wanderer"
-	"Scud"
