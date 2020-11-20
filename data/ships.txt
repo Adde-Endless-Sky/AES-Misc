@@ -958,27 +958,3 @@ shipyard "Havenworks"
 	"Marauder Firebird"
 	"Marauder Leviathan"
 	"Modified Argosy"
-
-# ----------------------------
-#   OVERRIDE SALES AES-OMNIS
-# ----------------------------
-
-shipyard "human plugins"
-	"Adel"
-	"Aesalon"
-	"Behehehemoth"
-	"Bennu"
-	"Bulwark"
-	"Hornet"
-	"Hydra"
-	"Paltry Freighter"
-	"Proto Freighter"
-
-shipyard "remnant plugins"
-	"Hobby"
-
-shipyard "wanderer plugins"
-	"Scud"
-
-shipyard "drak plugins"
-	"Sarkic"

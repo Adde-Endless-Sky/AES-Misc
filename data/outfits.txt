@@ -344,31 +344,3 @@ outfitter "Wanderer Advanced"
 
 outfitter "Wanderer Basics"
 	"Regional Map"
-
-# ----------------------------
-#   OVERRIDE SALES AES-OMNIS
-# ----------------------------
-
-outfitter "human plugins"
-	"Capacitor Rack"
-	"Capacitors"
-	"Chain Blaster Turret"
-	"Dual Electron Beam"
-	"Flame Thrower"
-	"Knockout Gas"
-	"Plasma Repeater"
-	"Quad Plasma Turret"
-	"Regional Map"
-	"Shipwright Gear"
-	"Single Room"
-	"Smugglers Fittings"
-	"Storage Lockers"
-	"Tool Rack"
-
-outfitter "hai plugins"
-	"Ion Mortar"
-	"Katabatic Scanner"
-
-outfitter "wanderer plugins"
-	"Deuterium Culture Tanks"
-	"Type 0 Radiant Engine"

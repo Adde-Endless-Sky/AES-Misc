@@ -1,0 +1,47 @@
+# ---------
+#   SALES
+# ---------
+
+outfitter "human plugins"
+	"Capacitor Rack"
+	"Capacitors"
+	"Chain Blaster Turret"
+	"Dual Electron Beam"
+	"Flame Thrower"
+	"Knockout Gas"
+	"Plasma Repeater"
+	"Quad Plasma Turret"
+	"Regional Map"
+	"Shipwright Gear"
+	"Single Room"
+	"Smugglers Fittings"
+	"Storage Lockers"
+	"Tool Rack"
+
+outfitter "hai plugins"
+	"Ion Mortar"
+	"Katabatic Scanner"
+
+outfitter "wanderer plugins"
+	"Deuterium Culture Tanks"
+	"Type 0 Radiant Engine"
+
+shipyard "human plugins"
+	"Adel"
+	"Aesalon"
+	"Behehehemoth"
+	"Bennu"
+	"Bulwark"
+	"Hornet"
+	"Hydra"
+	"Paltry Freighter"
+	"Proto Freighter"
+
+shipyard "remnant plugins"
+	"Hobby"
+
+shipyard "wanderer plugins"
+	"Scud"
+
+shipyard "drak plugins"
+	"Sarkic"
