@@ -664,33 +664,6 @@ ship "Scud"
 	description `Scud drones are used by the Wanderers to keep their star systems safe. Although the original Flycatcher drone was designed to render hostile missiles ineffective, the Scud drone is intended to overwhelm hostiles with many of the Wanderers Thunderhead Missiles.`
 
 # ------------
-#   VARIANTS
-# ------------
-
-ship "Leviathan" "Leviathan (Plasma Repeater)"
-	outfits
-		"A375 Atomic Steering"
-		"Afterburner"
-		"Breeder Reactor"
-		"D94-YV Shield Generator" 2
-		"Heavy Anti-Missile Turret" 2
-		"Impala Plasma Thruster"
-		"Laser Rifle" 25
-		"Liquid Nitrogen Cooler"
-		"LP036a Battery Pack"
-		"Plasma Repeater" 4
-		"Ramscoop"
-		"Scram Drive"
-	gun "Plasma Repeater"
-	gun "Plasma Repeater"
-	gun "Plasma Repeater"
-	gun "Plasma Repeater"
-	turret
-	turret
-	turret "Heavy Anti-Missile Turret"
-	turret "Heavy Anti-Missile Turret"
-
-# ------------
 #   OVERRIDE
 # ------------
 
