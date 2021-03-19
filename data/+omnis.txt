@@ -44,3 +44,32 @@ shipyard "wanderer plugins"
 
 shipyard "drak plugins"
 	"Sarkic"
+
+# -----------
+#   MAPPING
+# -----------
+
+mission "reveal misc content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	to offer
+		has "omnis start"
+	on accept
+		event "reveal misc content"
+
+event "reveal misc content"
+	visit "Celiatis"
+	visit "Felii"
+	visit "Gerusti"
+	visit "Mafari"
+	visit "Marati"
+	visit "Ottava"
+	visit "Paritixi"
+	visit "Perima"
+	visit "Prima"
+	visit "Raliesa"
+	visit "Remia"
+	visit "Resetus"
