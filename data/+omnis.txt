@@ -25,6 +25,10 @@ outfitter "korath plugins"
 	"Korath Disruptor Gun"
 	"Vector Engine (Reality Class)"
 
+outfitter "wanderer plugins"
+	"Deuterium Culture Tanks"
+	"Type 0 Radiant Engine"
+
 outfitter "quarg plugins"
 	"Antimatter Core (Redux)"
 	"Central Repair Hub"
@@ -53,10 +57,6 @@ outfitter "quarg plugins"
 	"Small Graviton Thruster"
 	"Tachyon Core"
 
-outfitter "wanderer plugins"
-	"Deuterium Culture Tanks"
-	"Type 0 Radiant Engine"
-
 shipyard "human plugins"
 	"Adel"
 	"Aesalon"
@@ -68,11 +68,17 @@ shipyard "human plugins"
 	"Paltry Freighter"
 	"Proto Freighter"
 
+shipyard "remnant plugins"
+	"Hobby"
+
 shipyard "korath plugins"
 	"Kar Ik Vot 637"
 	"Kar Ik Vot 711"
 	"Korath Stalker"
 	"Model 1024"
+
+shipyard "wanderer plugins"
+	"Scud"
 	
 shipyard "quarg plugins"
 	"Quarg Archdragon"
@@ -86,12 +92,6 @@ shipyard "quarg plugins"
 	"Quarg Rhea"
 	"Quarg Skylark (Redux)"
 	"Quarg Wardragon (Redux)"
-
-shipyard "remnant plugins"
-	"Hobby"
-
-shipyard "wanderer plugins"
-	"Scud"
 
 shipyard "drak plugins"
 	"Sarkic"
