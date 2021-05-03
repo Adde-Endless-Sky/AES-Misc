@@ -521,11 +521,87 @@ system "Resetus"
 			period 13
 
 # --------------------
+#   OVERRIDE SYSTEMS
+# --------------------
+
+system Chikatip
+	add fleet "Quarg Scout" 2000
+
+system Chornifath
+	add fleet "Quarg Scout" 1000
+
+system Dokdobaru
+	add fleet "Quarg Scout" 800
+
+system Farbutero
+	add fleet "Quarg Scout" 2000
+
+system Feroteri
+	add fleet "Quarg Scout" 3000
+
+system Fornarep
+	add fleet "Quarg Scout" 2000
+
+system Furmeliki
+	add fleet "Quarg Scout" 1000
+
+system Hesselpost
+	add fleet "Quarg Scout" 1000
+
+system Kaliptari
+	add fleet "Quarg Scout" 3000
+
+system Kashikt
+	add fleet "Quarg Scout" 2000
+
+system Korsmanath
+	add fleet "Quarg Scout" 3000
+
+system Meftarkata
+	add fleet "Quarg Scout" 1000
+
+system Sabriset
+	add fleet "Quarg Scout" 4000
+
+system Seketra
+	add fleet "Quarg Scout" 3000
+
+system Sepriaptu
+	add fleet "Quarg Scout" 4000
+
+system Sevrelect
+	add fleet "Quarg Scout" 3000
+
+system Skeruto
+	add fleet "Quarg Scout" 2000
+
+system Solifar
+	add fleet "Quarg Scout" 4000
+
+system Sumprast
+	add fleet "Quarg Scout" 2500
+
+# --------------------
 #   OVERRIDE PLANETS
 # --------------------
 
+planet "Alta Hai"
+	tribute 38000
+		fleet "quarg ring defence" 4
+		threshold 61000
+
 planet "Haven"
 	shipyard "Havenworks"
+
+planet "Kuwaru Efreti"
+	tribute 57000
+		fleet "quarg ring defence" 5
+		threshold 76000
+		
+planet "Lagrange"
+	tribute 12400
+		fleet "quarg defence" 2
+		threshold 34000
 
 # -------------
 #   WORMHOLES

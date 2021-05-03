@@ -1,3 +1,57 @@
+# ----------
+#   FLEETS
+# ----------
+
+fleet "quarg defence"
+	government Quarg
+	personality
+		forbearing
+		opportunistic
+	variant
+		"Quarg Balaur"
+		"Quarg Wardragon" 11
+	variant 3
+		"Quarg Skylark" 2
+		"Quarg Wardragon" 8
+	variant 4
+		"Quarg Skylark" 1
+		"Quarg Wardragon" 6
+	variant 4
+		"Quarg Skylark" 2
+		"Quarg Wardragon" 5
+
+fleet "quarg ring defence"
+	government Quarg
+	personality
+		forbearing
+		opportunistic
+	variant 2
+		"Quarg Balaur" 2
+		"Quarg Wardragon" 5
+	variant 5
+		"Quarg Balaur"
+		"Quarg Skylark" 1
+		"Quarg Wardragon" 9
+	variant 6
+		"Quarg Balaur"
+		"Quarg Skylark" 3
+		"Quarg Wardragon" 6
+	variant 8
+		"Quarg Balaur"
+		"Quarg Skylark" 4
+		"Quarg Wardragon" 11
+
+fleet "Quarg Scout"
+	government "Quarg"
+	names "quarg"
+	personality
+		forbearing
+		opportunistic
+	variant 3
+		"Quarg Oriole"
+	variant 2
+		"Quarg Oriole" 2
+
 # ------------
 #   OVERRIDE
 # ------------
@@ -67,6 +121,10 @@ fleet "Large Kor Sestor"
 		"Tek Far 109" 2
 		"Far Osk 27" 14
 		"Far Lek 14" 18
+
+fleet "Quarg"
+	add variant
+		"Quarg Oriole"
 
 fleet "Small Kor Mereti"
 	add variant 4

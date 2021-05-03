@@ -1,3 +1,34 @@
+# -------------
+#   TRANSPORT
+# -------------
+
+ship "Quarg Rhea"
+	attributes
+		category "Transport"
+		"cost" 49667000
+		"shields" 73000
+		"hull" 66000
+		"required crew" 61
+		"bunks" 404
+		"mass" 490
+		"drag" 7.5
+		"heat dissipation" .67
+		"fuel capacity" 1200
+		"ramscoop" 10
+		"cargo space" 46
+		"outfit space" 500
+		"weapon capacity" 143
+		"engine capacity" 182
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 57
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+	description `Despite their enormous population, the Quarg seldom are seen travelling from one of their rings to another via ships. When they need to do so, however, these ships are at their disposal.`
+
 # -------------------
 #   LIGHT FREIGHTER
 # -------------------
@@ -181,6 +212,60 @@ ship "Proto Freighter"
 	explode "large explosion" 8
 	"final explode" "final explosion large"
 
+ship "Quarg Guan"
+	attributes
+		category "Heavy Freighter"
+		"cost" 86373000
+		"shields" 129000
+		"hull" 100000
+		"required crew" 78
+		"bunks" 102
+		"mass" 1100
+		"drag" 10.9
+		"heat dissipation" .47
+		"fuel capacity" 1600
+		"ramscoop" 10
+		"cargo space" 2963
+		"outfit space" 632
+		"weapon capacity" 186
+		"engine capacity" 138
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 69
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator" 2
+	description `When constructing their ringworlds, the Quarg tend to just use up all planetary bodies and asteroids in the system as raw material, but during very brief, delicate times of construction, they use Guans to bring in immeasurable hauls of essential components.`
+
+ship "Quarg Partridge"
+	attributes
+		category "Heavy Freighter"
+		"cost" 68566000
+		"shields" 126000
+		"hull" 84000
+		"required crew" 58
+		"bunks" 97
+		"mass" 710
+		"drag" 9.2
+		"heat dissipation" .5
+		"fuel capacity" 1600
+		"ramscoop" 10
+		"cargo space" 1453
+		"outfit space" 585
+		"weapon capacity" 173
+		"engine capacity" 122
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 49
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator" 2
+	description `With over twice the cargo capacity of the largest human freighters, Partridges are ships the Quarg use mostly to transport research materials in bulk.`
+
 # ---------------
 #   INTERCEPTOR
 # ---------------
@@ -275,6 +360,63 @@ ship "Hornet"
 	explode "small explosion" 14
 	description `The Hornet is an interceptor that weighs in above its predecessor the Wasp, designed by Syndicated Shipyards to serve as a more reliable successor. It improves where the Wasp fails by a very thin margin, many consider the Hornet to be a needless product as it offers little improvement over almost a doubly high price.`
 
+# -----------------
+#   LIGHT WARSHIP
+# -----------------
+
+ship "Quarg Drake"
+	attributes
+		category "Light Warship"
+	description `This is a small patrol and scouting vessel, that travel in squadrons so that they can better defend themselves, to prevent the theft of Quarg technology.`
+
+ship "Quarg Oriole"
+	sprite ship/quarg_oriole
+	thumbnail thumbnail/quarg_oriole
+	attributes
+		category "Light Warship"
+		cost 33960000
+		shields 94500
+		hull 45000
+		"required crew" 32
+		bunks 56
+		mass 260
+		drag 2.8
+		"heat dissipation" .7
+		"fuel capacity" 1200
+		ramscoop 10
+		"cargo space" 60
+		"outfit space" 376
+		"weapon capacity" 98
+		"engine capacity" 86
+		weapon
+			"blast radius" 180
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Fluxion Shield Generator"
+		"Intrusion Countermeasures" 32
+		"Jump Drive"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Ranseur"
+		"Quarg Skydagger" 2
+		"Small Graviton Steering"
+		"Small Graviton Thruster"
+		"Tachyon Core"
+	engine -14 47
+	engine 14 47
+	gun 0 -70 "Quarg Ranseur"
+	turret 0 -1
+	turret -18 37.5 "Quarg Skydagger"
+	turret 18 37.5 "Quarg Skydagger"
+	explode "tiny explosion" 12
+	explode "small explosion" 14
+	explode "medium explosion" 24
+	explode "large explosion" 24
+	explode "huge explosion" 18
+	"final explode" "final explosion medium"
+
 # ------------------
 #   MEDIUM WARSHIP
 # ------------------
@@ -333,6 +475,91 @@ ship "Bennu"
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
 	description `Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. It only makes sense to steal and use alien technology when you already have the best of the best that humanity has to offer, and these pirates live in a hotbed of alien activity.`
+
+ship "Quarg Hydra"
+	sprite ship/quarg_hydra
+	thumbnail thumbnail/quarg_hydra
+	attributes
+		category "Medium Warship"
+		"cost" 82441000
+		"shields" 194000
+		"hull" 95000
+		"required crew" 89
+		"bunks" 118
+		"mass" 610
+		"drag" 9.2
+		"heat dissipation" .52
+		"fuel capacity" 1000
+		"ramscoop" 10
+		"cargo space" 19
+		"outfit space" 760
+		"weapon capacity" 350
+		"engine capacity" 122
+	outfits
+		"Antimatter Core"
+		"Central Repair Hub"
+		"Infimum Shield Generator"
+		"Intrusion Countermeasures" 55
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quarg Anti-Missile" 3
+		"Quarg Lucerne" 2
+		"Quarg Ranseur" 2
+		"Quarg Skydagger" 3
+	engine -36.5 94
+	engine 36.5 94
+	engine 0 95
+	engine -28 101.5
+	engine 28 101.5
+	gun -14.5 -63.5 "Quarg Ranseur"
+	gun 14.5 -63.5 "Quarg Ranseur"
+	gun -75 45.5 "Quarg Lucerne"
+	gun 75 45.5 "Quarg Lucerne"
+	turret 0 -17.5 "Quarg Skydagger"
+	turret 0 -35.5 "Quarg Anti-Missile"
+	turret -27 64.5 "Quarg Skydagger"
+	turret 27 64.5 "Quarg Skydagger"
+	turret -66.5 73 "Quarg Anti-Missile"
+	turret 66.5 73 "Quarg Anti-Missile"
+	description `Once, when for the first time their Wardragons proved insufficient for dealing with threats, the Quarg decided to simply improve the design, increasing its durability and armament, at the expense of speed and maneuverability.`
+	description `	Though they were made more powerful than Wardragons by brute force, the Hydra is much too simple a design, and like its predecessor wasn't particularly effective.`
+		
+ship "Quarg Lindwyrm"
+	attributes
+		category "Medium Warship"
+		"cost" 77955000
+		"shields" 172000
+		"hull" 73000
+		"required crew" 74
+		"bunks" 115
+		"mass" 440
+		"drag" 5.2
+		"heat dissipation" .55
+		"fuel capacity" 800
+		"ramscoop" 10
+		"cargo space" 17
+		"outfit space" 690
+		"weapon capacity" 320
+		"engine capacity" 170
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 62
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	description `The embodiment of a grudge, Lindwyrms were created long after the one of the Quarg's ringworlds was broken, designed with the intent of having it hunt down and dispose of one of the more troublesome ships the Pug used in the conflict.`
 
 # -----------------
 #   HEAVY WARSHIP
@@ -763,6 +990,240 @@ ship "Model 1024"
 	explode "tiny explosion" 160
 	"final explode" "final explosion large"
 	description `The next step in the evolution of the Kor Mereti war-machine is the Model 1024, somewhat improved beyond a perfect ring. Sporting minimal armament with a sudden conversion to a cargo hauling vessel, this was obviously developed after the Kor Mereti gained sapience and diverted their focus to less self-destructive endeavors.`
+
+ship "Quarg Archdragon"
+	attributes
+		category "Heavy Warship"
+		"cost" 113782000
+		"shields" 305000
+		"hull" 142000
+		"required crew" 113
+		"bunks" 136
+		"mass" 850
+		"drag" 12.3
+		"heat dissipation" .48
+		"fuel capacity" 1000
+		"ramscoop" 10
+		"cargo space" 32
+		"outfit space" 1150
+		"weapon capacity" 550
+		"engine capacity" 217
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 84
+		"Jump Drive"
+		"Medium Graviton Steering" 2
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+
+ship "Quarg Balaur"
+	sprite ship/quarg_balaur
+	thumbnail thumbnail/quarg_balaur
+	attributes
+		category "Heavy Warship"
+		"cost" 237640000
+		"shields" 2597000
+		"hull" 767000
+		"required crew" 3451
+		"bunks" 3792
+		"mass" 13470
+		"drag" 66.2
+		"heat dissipation" .42
+		"fuel capacity" 3000
+		"ramscoop" 20
+		"fuel generation" .5
+		"cargo space" 390
+		"outfit space" 6000
+		"weapon capacity" 3000
+		"engine capacity" 700
+		"inscrutable" 1
+		"ion protection" 86000
+		"heat protection" 1
+		"slowing protection" 3
+		"piercing protection" .2
+		"cooling" 60
+		weapon
+			"blast radius" 470
+			"shield damage" 2100
+			"hull damage" 1300
+			"hit force" 2800
+	outfits
+		"Central Repair Hub" 7
+		"Dark Matter Core" 3
+		"Dark Matter Pulse"
+		"Intrusion Countermeasures" 237
+		"Jump Drive"
+		"Large Graviton Steering" 3
+		"Large Graviton Thruster" 3
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery" 5
+		"Peripheral Repair Hub"
+		"Quantum Shield Generator" 7
+		"Quarg Anti-Missile" 5
+		"Quarg Culverin" 4
+		"Quarg Skylance" 20
+		"Small Graviton Thruster"
+	engine -139.5 1147 2.2
+	engine 139.5 1147 2.2
+	engine 0 1176 5.5
+	gun -50.5 -1177.5 "Quarg Culverin"
+	gun -24 -1177.5 "Quarg Culverin"
+	gun 0 -1177.5 "Quarg Culverin"
+	gun 24 -1177.5 "Quarg Culverin"
+	gun 50.5 -1177.5 "Quarg Culverin"
+	gun 0 -1163 "Dark Matter Pulse"
+	turret -113.5 -724 "Quarg Skylance"
+	turret 113.5 -724 "Quarg Skylance"
+	turret -113.5 -673.5 "Quarg Skylance"
+	turret 113.5 -673.5 "Quarg Skylance"
+	turret 0 -540 "Quarg Anti-Missile"
+	turret -175.5 -334 "Quarg Skylance"
+	turret -175.5 -334 "Quarg Skylance"
+	turret 175.5 -334 "Quarg Skylance"
+	turret 175.5 -334 "Quarg Skylance"
+	turret -210 -268 "Quarg Skylance"
+	turret -210 -268 "Quarg Skylance"
+	turret 210 -268 "Quarg Skylance"
+	turret 210 -268 "Quarg Skylance"
+	turret -183.5 57.5 "Quarg Skylance"
+	turret -183.5 57.5 "Quarg Skylance"
+	turret 183.5 57.5 "Quarg Skylance"
+	turret 183.5 57.5 "Quarg Skylance"
+	turret -248 57.5 "Quarg Anti-Missile"
+	turret 248 57.5 "Quarg Anti-Missile"
+	turret -197 948 "Quarg Anti-Missile"
+	turret 197 948 "Quarg Anti-Missile"
+	turret -131.5 950 "Quarg Skylance"
+	turret -131.5 950 "Quarg Skylance"
+	turret 131.5 950 "Quarg Skylance"
+	turret -131.5 950 "Quarg Skylance"
+	explode "tiny explosion" 22
+	explode "small explosion" 30
+	explode "medium explosion" 38
+	explode "large explosion" 54
+	explode "huge explosion" 32
+	"final explode" "final explosion huge"
+	description `The Balaur is the Quarg's ultimate last line of defense, built to guard their ringworlds from any threat. A nigh indestructible defensive platform of a ship, the gargantuan vessel is armed with a unique emitter, a weapon designed to neutralize enemy shields and overwhelm their systems, allowing the Balaur's many Skylances to tear apart opposing forces.`
+	description `	Being the newest Quarg ship, a design only a few thousand years old, the Balaur is also their most powerful, embodying their history of constant improvement, culminating in a ship that's been given legendary durability by brute force alone.`
+
+ship "Quarg Skylark (Redux)"
+	sprite "ship/skylark"
+	thumbnail "thumbnail/skylark"
+	attributes
+		category "Light Freighter"
+		"cost" 35334000
+		"shields" 100000
+		"hull" 59000
+		"required crew" 29
+		"bunks" 50
+		"mass" 360
+		"drag" 6.1
+		"heat dissipation" .7
+		"fuel capacity" 1000
+		"cargo space" 200
+		"outfit space" 435
+		"weapon capacity" 126
+		"engine capacity" 98
+		"hull repair rate" 0
+		"hull energy" 0
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Fluxion Shield Generator"
+		"Intrusion Countermeasures" 29
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Anti-Missile" 2
+		"Quarg Skydagger" 2
+		"Small Graviton Thruster"
+		"Tachyon Core"
+	engine -15 117
+	engine 15 117
+	turret -12 -80 "Quarg Skylance"
+	turret 12 -80 "Quarg Skylance"
+	turret -34 24 "Quarg Anti-Missile"
+	turret 34 24 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `Skylarks are simple cargo ships, used to transport small and medium loads from and to Quarg worlds. Of course, being a Quarg ship, even this simple freighter is far more durable than the toughest human warship.`
+
+ship "Quarg Wardragon (Redux)"
+	sprite "ship/wardragon"
+	thumbnail "thumbnail/wardragon"
+	attributes
+		category "Light Warship"
+		"cost" 39260000
+		"shields" 121000
+		"hull" 49400
+		"required crew" 56
+		"bunks" 98
+		"mass" 330
+		"drag" 4.8
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 10
+		"outfit space" 555
+		"weapon capacity" 200
+		"engine capacity" 101
+		"hull repair rate" 0
+		"hull energy" 0
+		"ramscoop" 10
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Infimum Shield Generator"
+		"Intrusion Countermeasures" 56
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Nanotech Battery"
+		"Peripheral Repair Hub"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 2
+		"Singularity Core"
+		"Small Graviton Thruster"
+	engine -14 47
+	engine 14 47
+	turret -28 7 "Quarg Skylance"
+	turret 28 7 "Quarg Skylance"
+	turret -9 -14 "Quarg Anti-Missile"
+	turret 9 -14 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 30
+	explode "large explosion" 40
+	explode "huge explosion" 20
+	"final explode" "final explosion medium"
+	description `Their oldest design for a dedicated warship, Wardragons remained the most powerful ships the Quarg produced for several hundred thousand years, and as per usual for their technology, it has ever so slowly been improved and tweaked over millennia.`
 
 # -----------
 #   FIGHTER
