@@ -21,6 +21,10 @@ outfitter "hai plugins"
 	"Ion Mortar"
 	"Katabatic Scanner"
 
+outfitter "korath plugins"
+	"Korath Disruptor Gun"
+	"Vector Engine (Reality Class)"
+
 outfitter "wanderer plugins"
 	"Deuterium Culture Tanks"
 	"Type 0 Radiant Engine"
@@ -35,6 +39,12 @@ shipyard "human plugins"
 	"Hydra"
 	"Paltry Freighter"
 	"Proto Freighter"
+
+shipyard "korath plugins"
+	"Kar Ik Vot 637"
+	"Kar Ik Vot 711"
+	"Korath Stalker"
+	"Model 1024"
 
 shipyard "remnant plugins"
 	"Hobby"

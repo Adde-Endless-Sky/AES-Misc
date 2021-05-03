@@ -25,6 +25,30 @@ outfit "Dual Electron Beam"
 		"hull damage" 6.3
 	description `Through a method practiced in great depth throughout human space, comes the 'Dual Electron Beam' in full force. As an effect of the reinforcement of multiple units, the two Electron Beams work in conjunction with each other to form two coherent beams that boast a significantly more powerful result than that of two separate weapons.`
 
+outfit "Korath Disruptor Gun"
+	category "Guns"
+	cost 697000
+	thumbnail "outfit/disruptor_gun"
+	mass 23
+	"outfit space" -23
+	"weapon capacity" -23
+	"gun ports" -1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 15
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		inaccuracy 1
+		velocity 480
+		lifetime 1
+		reload 1
+		"firing energy" 8.0
+		"firing heat" 2.7
+		"shield damage" 3.8
+		"hull damage" .5
+		"disruption damage" .24
+	description `Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves.`
+
 # -----------
 #   TURRETS
 # -----------
@@ -217,6 +241,25 @@ outfit "Type 0 Radiant Engine"
 	cooling 1.9
 	description `The construction of the new Scud drones prompted a need for an even smaller engine complement than was available at the time. This lead to the creation of the Type 0 Radiant Engine, the Wanderers first ever hybrid engines systems, capable of achieving speeds comparable to a set of Type 1 engines whilst remaining significantly smaller.`
 	description `This efficiency serves as a reminder to the Wanderers that their engineering has not stagnated, and that they are still capable of progressing their technology.`
+
+outfit "Vector Engine (Reality Class)"
+	plural "Vector Engines (Reality Class)"
+	category "Engines"
+	cost 5192000
+	thumbnail "outfit/vector_engine_reality_class"
+	mass 198
+	"outfit space" -198
+	"engine capacity" -198
+	turn 4266
+	"turning energy" 13.7
+	"turning heat" 34.2
+	thrust 166.9
+	"thrusting energy" 22.7
+	"thrusting heat" 51.6
+	"flare sprite" "effect/korath flare/huge"
+		"frame rate" 6
+	"flare sound" "plasma huge"
+	description `Endless skirmishes among the rival Korath forces have produced a mockery of the word efficiency. Although total power output is increased considerably, the waste energy is very nearly enough to offset the advantages.`
 
 # ----------------
 #   HAND TO HAND
