@@ -3,6 +3,7 @@
 # -------------
 
 ship "Quarg Rhea"
+	sprite "outfit/unknown"
 	attributes
 		category "Transport"
 		"cost" 49667000
@@ -213,6 +214,7 @@ ship "Proto Freighter"
 	"final explode" "final explosion large"
 
 ship "Quarg Guan"
+	sprite "outfit/unknown"
 	attributes
 		category "Heavy Freighter"
 		"cost" 86373000
@@ -240,6 +242,7 @@ ship "Quarg Guan"
 	description `When constructing their ringworlds, the Quarg tend to just use up all planetary bodies and asteroids in the system as raw material, but during very brief, delicate times of construction, they use Guans to bring in immeasurable hauls of essential components.`
 
 ship "Quarg Partridge"
+	sprite "outfit/unknown"
 	attributes
 		category "Heavy Freighter"
 		"cost" 68566000
@@ -365,6 +368,7 @@ ship "Hornet"
 # -----------------
 
 ship "Quarg Drake"
+	sprite "outfit/unknown"
 	attributes
 		category "Light Warship"
 	description `This is a small patrol and scouting vessel, that travel in squadrons so that they can better defend themselves, to prevent the theft of Quarg technology.`
@@ -527,6 +531,7 @@ ship "Quarg Hydra"
 	description `	Though they were made more powerful than Wardragons by brute force, the Hydra is much too simple a design, and like its predecessor wasn't particularly effective.`
 		
 ship "Quarg Lindwyrm"
+	sprite "outfit/unknown"
 	attributes
 		category "Medium Warship"
 		"cost" 77955000
@@ -992,6 +997,7 @@ ship "Model 1024"
 	description `The next step in the evolution of the Kor Mereti war-machine is the Model 1024, somewhat improved beyond a perfect ring. Sporting minimal armament with a sudden conversion to a cargo hauling vessel, this was obviously developed after the Kor Mereti gained sapience and diverted their focus to less self-destructive endeavors.`
 
 ship "Quarg Archdragon"
+	sprite "outfit/unknown"
 	attributes
 		category "Heavy Warship"
 		"cost" 113782000
